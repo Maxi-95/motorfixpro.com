@@ -1,91 +1,203 @@
 <!DOCTYPE html>
 <html lang="es">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Reparación de Automóviles</title>
-      <link rel="stylesheet" href="css/style.css" />
-      <script src="https://cdn.tailwindcss.com"></script>
-   </head>
-   <body>
-      <!-- component -->
-      <nav id="header" class="bg-gray-400">
-         <div class="w-full flex items-center justify-between mt-0 px-6 py-2">
-            <label for="menu-toggle" class="cursor-pointer md:hidden block">
-               <svg
-                  class="fill-current text-blue-600"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 20 20">
-                  <title>menu</title>
-                  <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
-               </svg>
-            </label>
-            <input class="hidden" type="checkbox" id="menu-toggle" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reparación de Automóviles</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- component -->
+    <!-- BARRA DE NAVEGADOR -->
+    <nav class="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img
+            src="https://flowbite.com/docs/images/logo.svg"
+            class="h-8"
+            alt="Flowbite Logo"
+          />
+          <span
+            class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+            >Motorfixpro</span
+          >
+        </a>
 
+        <!-- Botón Hamburguesa -->
+        <button
+          id="menu-btn"
+          type="button"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        >
+          <span class="sr-only">Open main menu</span>
+          <svg
+            class="w-5 h-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
+        </button>
+
+        <!-- Menú de navegación -->
+        <div id="navbar-dropdown" class="hidden w-full md:block md:w-auto">
+          <ul
+            class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+          >
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="guides.html"
+                class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Guias</a
+              >
+            </li>
+            <li>
+              <a
+                href="tools.html"
+                class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Herramientas</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- BARRA DE NAVEGADOR -->
+
+    <!-- HERO SECCION -->
+    <div
+      class="bg-cover bg-center"
+      style="
+        background-image: url('https://img.freepik.com/fotos-premium/vista-superior-varias-herramientas-espacio-copia-fondo-oscuro-generado-ia_979320-19617.jpg?semt=ais_hybrid');
+      "
+    >
+      <div class="relative isolate px-6 lg:px-8">
+        <div
+          class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+          aria-hidden="true"
+        >
+          <div
+            class="relative left-[calc(50%-11rem)] aspect-1155/678 w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-linear-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+            style="
+              clip-path: polygon(
+                74.1% 44.1%,
+                100% 61.6%,
+                97.5% 26.9%,
+                85.5% 0.1%,
+                80.7% 2%,
+                72.5% 32.5%,
+                60.2% 62.4%,
+                52.4% 68.1%,
+                47.5% 58.3%,
+                45.2% 34.5%,
+                27.5% 76.7%,
+                0.1% 64.9%,
+                17.9% 100%,
+                27.6% 76.8%,
+                76.1% 97.7%,
+                74.1% 44.1%
+              );
+            "
+          ></div>
+        </div>
+        <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+          <div class="hidden sm:mb-8 sm:flex sm:justify-center">
             <div
-               class="hidden md:flex md:items-center md:w-auto w-full order-3 md:order-1"
-               id="menu">
-               <nav>
-                  <ul
-                     class="md:flex items-center justify-between text-base text-blue-600 pt-4 md:pt-0">
-                     <li>
-                        <a
-                           class="no-underline hover:text-black font-medium text-lg py-2 px-4 lg:-ml-2"
-                           href="#"
-                           >Home</a
-                        >
-                     </li>
-                     <li>
-                        <a
-                           class="inline-block no-underline hover:text-black font-medium text-lg py-2 px-4 lg:-ml-2"
-                           href="guides.html"
-                           >Guias</a
-                        >
-                     </li>
-                     <li>
-                        <a
-                           class="inline-block no-underline hover:text-black font-medium text-lg py-2 px-4 lg:-ml-2"
-                           href="#"
-                           >About</a
-                        >
-                     </li>
-                  </ul>
-               </nav>
+              class="relative rounded-full px-3 py-1 text-sm/6 text-gray-200 ring-1 ring-gray-900/10 hover:ring-gray-900/20"
+            >
+              Visita la tienda online
+              <a
+                href="#"
+                class="rounded-md m-3 bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                ><span class="absolute inset-0" aria-hidden="true"></span>Ver
+                tienda <span aria-hidden="true">&rarr;</span></a
+              >
             </div>
-
-            <div
-               class="order-2 md:order-3 flex flex-wrap items-center justify-end mr-0 md:mr-4"
-               id="nav-content">
-               <div class="auth flex items-center w-full md:w-full">
-                  <button
-                     class="bg-transparent text-gray-800 p-2 rounded border border-gray-300 mr-4 hover:bg-gray-100 hover:text-gray-700">
-                     Sign in
-                  </button>
-                  <button
-                     class="bg-blue-600 text-gray-200 p-2 rounded hover:bg-blue-500 hover:text-gray-100">
-                     Sign up
-                  </button>
-               </div>
+          </div>
+          <div class="text-center">
+            <h1
+              class="text-5xl font-semibold tracking-tight text-balance text-gray-100 sm:text-7xl"
+            >
+              Soluciones Profesionales para Tu Automóvil
+            </h1>
+            <p
+              class="mt-8 text-lg font-medium text-pretty text-gray-300 sm:text-xl/9"
+            >
+              🚗 Aquí encontrarás información detallada sobre mantenimiento y
+              reparación de autos.
+            </p>
+            <div class="mt-10 flex items-center justify-center gap-x-6">
+              <section class="content">
+                <a href="guides.html" class="btn">Ver Guías</a>
+              </section>
             </div>
-         </div>
-      </nav>
+          </div>
+        </div>
+        <div
+          class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+          aria-hidden="true"
+        >
+          <div
+            class="relative left-[calc(50%+3rem)] aspect-1155/678 w-[36.125rem] -translate-x-1/2 bg-linear-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
+            style="
+              clip-path: polygon(
+                74.1% 44.1%,
+                100% 61.6%,
+                97.5% 26.9%,
+                85.5% 0.1%,
+                80.7% 2%,
+                72.5% 32.5%,
+                60.2% 62.4%,
+                52.4% 68.1%,
+                47.5% 58.3%,
+                45.2% 34.5%,
+                27.5% 76.7%,
+                0.1% 64.9%,
+                17.9% 100%,
+                27.6% 76.8%,
+                76.1% 97.7%,
+                74.1% 44.1%
+              );
+            "
+          ></div>
+        </div>
+      </div>
+    </div>
+    <!-- HERO SECCION -->
 
-      <section class="content">
-         <h2>Bienvenido a nuestra guía de reparación de automóviles</h2>
-         <p>
-            Aquí encontrarás información detallada sobre mantenimiento y
-            reparación de autos.
-         </p>
-         <a href="guides.html" class="btn">Ver Guías</a>
-      </section>
+    <script>
+      // Selecciona el botón y el menú
+      const menuBtn = document.getElementById("menu-btn");
+      const navbarDropdown = document.getElementById("navbar-dropdown");
 
-      <footer>
-         <p>
-            &copy; 2025 Reparación de Automóviles | Todos los derechos
-            reservados.
-         </p>
-      </footer>
-   </body>
+      // Agrega evento de clic al botón hamburguesa
+      menuBtn.addEventListener("click", () => {
+        navbarDropdown.classList.toggle("hidden");
+      });
+    </script>
+
+    <footer>
+      <p>
+        &copy; 2025 Reparación de Automóviles | Todos los derechos reservados.
+      </p>
+    </footer>
+  </body>
 </html>
