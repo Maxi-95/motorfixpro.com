@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Herramientas Recomendadas</title>
     <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .sidebar {
+        width: 25%; /* Ancho de la barra lateral */
+      }
+
+      @media (min-width: 768px) {
+        .main-content {
+          width: 70%; /* Ancho del contenido principal en pantallas medianas y grandes */
+        }
+      }
+    </style>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
@@ -284,197 +295,247 @@
 
     <!-- TARGETAS SUBCATEGORIAS / ITEMS -->
 
-    <div class="p-4 sm:ml-64">
-      <div class="p-4 rounded-lg dark:border-gray-700 mt-14">
-        <h1 class="text-4xl font-bold text-center text-gray-900 my-8">
-          Mecánica
-        </h1>
+    <div class="mt-20 sm:ml-64">
+      <div
+        class="font-sans antialiased text-gray-800 p-6 flex flex-col md:flex-row"
+      >
+        <main class="main-content mb-8 md:mr-8">
+          <header class="mb-8">
+            <h1 class="text-4xl font-bold text-gray-900">
+              Guía para la Limpieza Profesional de Interiores de Auto:
+              Información Detallada
+            </h1>
+            <p class="text-2xl text-gray-700 mt-2">
+              Descubre las técnicas y los productos utilizados en la limpieza
+              profesional de interiores de automóviles para un ambiente fresco,
+              limpio y agradable.
+            </p>
+          </header>
 
-        <div class="grid grid-cols-3 gap-4 justify-items-center">
-          <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
           >
-            <a href="./cambio.html">
-              <img
-                class="rounded-t-lg"
-                src="https://cdn.club-magazin.autodoc.de/uploads/sites/11/2020/11/como-se-alinean-las-ruedas-de-un-coche.jpg"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./cambio.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Cambio de ruedas y alineación
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Revisión del desgaste de neumáticos, cambio de llantas y
-                alineación para evitar problemas de estabilidad y consumo
-                irregular de combustible.
-              </p>
-              <a
-                href="./cambio.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              1. Preparación y Aspirado Profundo: Eliminando la Suciedad
+              Superficial
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >La preparación y el aspirado</span
               >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
+              son los primeros pasos esenciales para una limpieza interior
+              eficaz.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700">Retirar objetos personales:</span>
+                Sacar todos los objetos sueltos, alfombras y protectores de
+                asiento del vehículo.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Aspirado general:</span> Utilizar
+                una aspiradora potente con diferentes accesorios (boquilla
+                estrecha, cepillo) para remover polvo, migas, pelos de mascotas
+                y otros residuos de alfombras, tapicería, asientos, paneles de
+                puertas, consola central y rendijas de ventilación.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Aspirado detallado:</span> Prestar
+                especial atención a las áreas de difícil acceso, como debajo de
+                los asientos, entre los cojines, a lo largo de los bordes y en
+                los huecos.
+              </li>
+            </ul>
+          </section>
 
-          <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
           >
-            <a href="./valvulas.html">
-              <img
-                class="rounded-t-lg"
-                src="https://rehisaresortes.mx/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/08/por-que-se-rompen-los-resortes-de-valvulas-de-motor.jpg.webp"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./valvulas.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Válvulas del motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Inspección y ajuste de las válvulas del motor para evitar
-                pérdida de compresión y mejorar el rendimiento del vehículo.
-              </p>
-              <a
-                href="./valvulas.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              2. Limpieza de Alfombras y Tapicería: Eliminando Manchas y Olores
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >La limpieza de alfombras y tapicería</span
               >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
+              es crucial para eliminar manchas, suciedad incrustada y olores.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700">Tratamiento de manchas:</span>
+                Aplicar un quitamanchas específico para el tipo de mancha (café,
+                grasa, tinta, etc.) y dejar actuar según las instrucciones del
+                producto antes de proceder a la limpieza general.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Limpieza con vapor (opcional):</span
                 >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
+                El vapor puede ayudar a desinfectar y aflojar la suciedad
+                incrustada en alfombras y tapicería.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Extracción con máquina de limpieza de tapicería
+                  (extractor):</span
+                >
+                Utilizar una máquina que rocía una solución de limpieza y luego
+                la succiona junto con la suciedad. Esto es especialmente
+                efectivo para alfombras y tapicería de tela.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Limpieza de tapicería de cuero:</span
+                >
+                Utilizar limpiadores y acondicionadores específicos para cuero,
+                aplicándolos con un paño de microfibra suave.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Secado:</span> Asegurar una buena
+                ventilación para que las alfombras y la tapicería se sequen
+                completamente y evitar la formación de moho u olores. Se pueden
+                utilizar ventiladores o dejar las ventanas entreabiertas.
+              </li>
+            </ul>
+          </section>
+
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+          >
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              3. Limpieza y Acondicionamiento de Paneles y Consola Central
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >La limpieza de las superficies duras</span
+              >
+              del interior mejora la apariencia y elimina el polvo y la
+              suciedad.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700">Limpieza de polvo:</span> Utilizar
+                paños de microfibra y limpiadores multiusos o específicos para
+                interiores para limpiar paneles de puertas, tablero, consola
+                central y volante.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Limpieza de rendijas y detalles:</span
+                >
+                Utilizar cepillos pequeños, hisopos de algodón o aire comprimido
+                para limpiar el polvo y la suciedad de las rendijas de
+                ventilación, botones y otros detalles.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Acondicionamiento (opcional):</span>
+                Aplicar acondicionadores para plástico y vinilo para proteger
+                estas superficies de los rayos UV, prevenir el agrietamiento y
+                restaurar su brillo.
+              </li>
+            </ul>
+          </section>
+
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+          >
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              4. Limpieza de Cristales y Espejos: Visibilidad Clara
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >La limpieza de los cristales interiores</span
+              >
+              es fundamental para una visibilidad clara y segura.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Limpiador de cristales específico:</span
+                >
+                Utilizar un limpiador de cristales de buena calidad que no deje
+                residuos.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Paños de microfibra limpios y secos:</span
+                >
+                Utilizar un paño para aplicar el limpiador y otro seco para
+                pulir y evitar vetas.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Limpieza de espejos:</span> Aplicar
+                el mismo método para limpiar los espejos retrovisores.
+              </li>
+            </ul>
+          </section>
+
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+          >
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              5. Desodorización y Ambientación: Un Toque Final Fresco
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >La desodorización y la ambientación</span
+              >
+              ayudan a eliminar olores persistentes y a dejar un aroma agradable
+              en el interior del vehículo.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Eliminación de la fuente del olor:</span
+                >
+                Si hay una fuente específica del mal olor (comida derramada,
+                humedad), es importante limpiarla a fondo primero.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Neutralizadores de olores:</span>
+                Utilizar sprays o productos que neutralizan las moléculas del
+                mal olor en lugar de solo enmascararlos.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Ambientadores:</span> Utilizar
+                ambientadores en spray, colgantes o para las rejillas de
+                ventilación para dejar un aroma fresco.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Generadores de ozono (uso profesional):</span
+                >
+                En casos de olores muy persistentes, un profesional puede
+                utilizar un generador de ozono para eliminar los olores a nivel
+                molecular. Es importante ventilar bien el vehículo después de
+                este tratamiento.
+              </li>
+            </ul>
+          </section>
+        </main>
+
+        <aside
+          class="sidebar w-full md:w-1/4 p-6 bg-gray-200 rounded-md shadow-md"
+        >
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">
+            Espacio para Anuncios
+          </h2>
+          <p class="text-lg text-gray-700 mb-4">
+            Este es un espacio reservado para futuros anuncios de Google AdSense
+            u otro contenido promocional relevante para productos y servicios de
+            limpieza de interiores de automóviles.
+          </p>
+          <div
+            class="bg-gray-300 h-40 rounded-md mb-4 flex items-center justify-center text-gray-500"
+          >
+            Anuncio 1
           </div>
           <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+            class="bg-gray-300 h-40 rounded-md mb-4 flex items-center justify-center text-gray-500"
           >
-            <a href="./motor.html">
-              <img
-                class="rounded-t-lg"
-                src="https://www.rodesrecambios.es/wp-content/uploads/2022/06/cambiar-motor-coche.png"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./motor.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Cambio de motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Sustitución completa del motor por uno nuevo o reacondicionado.
-                Se realiza cuando el motor sufre daños irreparables.
-              </p>
-              <a
-                href="./motor.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
+            Anuncio 2
           </div>
-          <div
-            class="max-w-sm col-span-3 justify-self-center bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
-          >
-            <a href="./mantenimiento.html">
-              <img
-                class="rounded-t-lg"
-                src="https://repsaautocentro.com/wp-content/uploads/2018/05/18268493_1514541068578857_6685536562013218292_n.jpg"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./mantenimiento.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Mantenimiento del motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Incluye cambio de aceite, revisión de filtros, correas,
-                inyectores y otros componentes esenciales para prolongar la vida
-                útil del motor.
-              </p>
-              <a
-                href="./mantenimiento.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
+        </aside>
       </div>
     </div>
 

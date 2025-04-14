@@ -4,6 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Herramientas Recomendadas</title>
+    <style>
+      .sidebar {
+        width: 25%; /* Ancho de la barra lateral */
+      }
+
+      @media (min-width: 768px) {
+        .main-content {
+          width: 70%; /* Ancho del contenido principal en pantallas medianas y grandes */
+        }
+      }
+    </style>
     <link rel="stylesheet" href="css/style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
@@ -284,197 +295,217 @@
 
     <!-- TARGETAS SUBCATEGORIAS / ITEMS -->
 
-    <div class="p-4 sm:ml-64">
-      <div class="p-4 rounded-lg dark:border-gray-700 mt-14">
-        <h1 class="text-4xl font-bold text-center text-gray-900 my-8">
-          Mecánica
-        </h1>
+    <div class="mt-20 sm:ml-64">
+      <div
+        class="font-sans antialiased text-gray-800 p-6 flex flex-col md:flex-row"
+      >
+        <main class="main-content mb-8 md:mr-8">
+          <header class="mb-8">
+            <h1 class="text-4xl font-bold text-gray-900">
+              Guía sobre la Revisión del Líquido de Frenos Automotriz:
+              Información Detallada
+            </h1>
+            <p class="text-2xl text-gray-700 mt-2">
+              Descubre la importancia de revisar el líquido de frenos de tu
+              automóvil, los aspectos clave a considerar y cuándo es necesario
+              tomar medidas.
+            </p>
+          </header>
 
-        <div class="grid grid-cols-3 gap-4 justify-items-center">
-          <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
           >
-            <a href="./cambio.html">
-              <img
-                class="rounded-t-lg"
-                src="https://cdn.club-magazin.autodoc.de/uploads/sites/11/2020/11/como-se-alinean-las-ruedas-de-un-coche.jpg"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./cambio.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Cambio de ruedas y alineación
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Revisión del desgaste de neumáticos, cambio de llantas y
-                alineación para evitar problemas de estabilidad y consumo
-                irregular de combustible.
-              </p>
-              <a
-                href="./cambio.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              1. ¿Qué es el Líquido de Frenos y por Qué es Crucial?
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >El líquido de frenos</span
               >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
+              es un fluido hidráulico esencial en el sistema de frenos de un
+              vehículo. Su función principal es transmitir la fuerza que se
+              aplica al pedal del freno a las pinzas de freno (en frenos de
+              disco) o a los cilindros de rueda (en frenos de tambor), lo que a
+              su vez activa los mecanismos de frenado para detener el automóvil.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700">Incompresibilidad:</span> Una
+                propiedad fundamental del líquido de frenos es su
+                incompresibilidad. Esto permite que la presión ejercida en el
+                pedal se transmita eficazmente a los componentes de frenado.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Punto de ebullición:</span> El
+                líquido de frenos está diseñado para tener un alto punto de
+                ebullición. El calor generado durante el frenado puede ser
+                significativo, y si el líquido hierve, se forman burbujas de
+                vapor que son compresibles, lo que puede resultar en una pérdida
+                de presión de frenado (fading de frenos).
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Hygroscopia:</span> La mayoría de
+                los líquidos de frenos (DOT 3, DOT 4 y DOT 5.1) son
+                higroscópicos, lo que significa que absorben la humedad del
+                aire. La absorción de humedad reduce el punto de ebullición del
+                líquido, aumentando el riesgo de fading de frenos y corrosión
+                interna del sistema.
+              </li>
+            </ul>
+          </section>
 
-          <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
           >
-            <a href="./valvulas.html">
-              <img
-                class="rounded-t-lg"
-                src="https://rehisaresortes.mx/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/08/por-que-se-rompen-los-resortes-de-valvulas-de-motor.jpg.webp"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./valvulas.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Válvulas del motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Inspección y ajuste de las válvulas del motor para evitar
-                pérdida de compresión y mejorar el rendimiento del vehículo.
-              </p>
-              <a
-                href="./valvulas.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              2. Aspectos Clave a Revisar del Líquido de Frenos
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >La revisión del líquido de frenos implica verificar varios
+                aspectos importantes.</span
               >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700">Nivel del líquido:</span> El nivel
+                del líquido de frenos debe revisarse periódicamente en el
+                depósito ubicado generalmente en el compartimento del motor. El
+                nivel debe estar entre las marcas de "mínimo" y "máximo". Un
+                nivel bajo puede indicar una fuga en el sistema o un desgaste
+                excesivo de las pastillas de freno.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Color y apariencia:</span> El
+                líquido de frenos limpio suele ser de color amarillo claro o
+                ámbar. Con el tiempo y el uso, puede oscurecerse debido a la
+                contaminación y la degradación térmica. Un líquido muy oscuro o
+                con partículas visibles indica la necesidad de un reemplazo.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Contaminación:</span> La presencia
+                de sedimentos, óxido u otras partículas en el líquido de frenos
+                puede dañar los componentes del sistema, como la bomba de freno
+                y las pinzas.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Nivel de humedad:</span> Como el
+                líquido de frenos higroscópico absorbe humedad, es importante
+                verificar el porcentaje de agua presente en el líquido. Existen
+                herramientas especiales (testers de humedad del líquido de
+                frenos) para medir esto. Un alto nivel de humedad reduce
+                significativamente el punto de ebullición.
+              </li>
+            </ul>
+          </section>
+
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+          >
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              3. Cuándo es Necesario Actuar con el Líquido de Frenos
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >Basándose en la revisión, hay varias situaciones que requieren
+                atención.</span
+              >
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700">Nivel bajo:</span> Si el nivel está
+                por debajo de la marca de "mínimo", es necesario inspeccionar el
+                sistema en busca de fugas y rellenar con el líquido correcto. Un
+                nivel bajo persistente sin fugas evidentes puede indicar
+                desgaste de las pastillas (en sistemas sin compensación
+                automática).
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Líquido oscuro o contaminado:</span>
+                Si el líquido está significativamente oscuro o contiene
+                partículas, se recomienda un reemplazo completo del líquido de
+                frenos (purgado del sistema).
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Alto nivel de humedad:</span> Si un
+                tester indica un porcentaje de agua elevado (generalmente por
+                encima del 3-4%), es crucial realizar un reemplazo completo del
+                líquido de frenos para evitar el fading y la corrosión.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Intervalo de reemplazo recomendado:</span
                 >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
+                Los fabricantes de vehículos suelen especificar un intervalo de
+                tiempo o kilometraje para el reemplazo del líquido de frenos
+                (generalmente cada 2-3 años). Incluso si el líquido parece estar
+                bien, se recomienda seguir estas indicaciones debido a la
+                absorción gradual de humedad.
+              </li>
+            </ul>
+          </section>
+
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+          >
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              4. Importancia de un Líquido de Frenos en Buen Estado
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >Mantener el líquido de frenos en condiciones óptimas</span
+              >
+              es vital para la seguridad del vehículo y sus ocupantes.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700">Frenado seguro y eficaz:</span> Un
+                líquido de frenos en buen estado garantiza una transmisión de
+                presión hidráulica eficiente y un rendimiento de frenado óptimo.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Prevención del fading de frenos:</span
+                >
+                Un bajo contenido de humedad asegura un punto de ebullición
+                alto, reduciendo el riesgo de pérdida de frenado bajo uso
+                intenso.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Protección contra la corrosión:</span
+                >
+                El reemplazo periódico del líquido ayuda a eliminar la humedad y
+                los contaminantes que pueden causar corrosión interna en los
+                componentes del sistema de frenos, prolongando su vida útil y
+                evitando costosas reparaciones.
+              </li>
+            </ul>
+          </section>
+        </main>
+
+        <aside
+          class="sidebar w-full md:w-1/4 p-6 bg-gray-200 rounded-md shadow-md"
+        >
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">
+            Espacio para Anuncios
+          </h2>
+          <p class="text-lg text-gray-700 mb-4">
+            Este es un espacio reservado para futuros anuncios de Google AdSense
+            u otro contenido promocional relevante para líquido de frenos,
+            testers de humedad y servicios de mantenimiento de frenos.
+          </p>
+          <div
+            class="bg-gray-300 h-40 rounded-md mb-4 flex items-center justify-center text-gray-500"
+          >
+            Anuncio 1
           </div>
           <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+            class="bg-gray-300 h-40 rounded-md mb-4 flex items-center justify-center text-gray-500"
           >
-            <a href="./motor.html">
-              <img
-                class="rounded-t-lg"
-                src="https://www.rodesrecambios.es/wp-content/uploads/2022/06/cambiar-motor-coche.png"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./motor.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Cambio de motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Sustitución completa del motor por uno nuevo o reacondicionado.
-                Se realiza cuando el motor sufre daños irreparables.
-              </p>
-              <a
-                href="./motor.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
+            Anuncio 2
           </div>
-          <div
-            class="max-w-sm col-span-3 justify-self-center bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
-          >
-            <a href="./mantenimiento.html">
-              <img
-                class="rounded-t-lg"
-                src="https://repsaautocentro.com/wp-content/uploads/2018/05/18268493_1514541068578857_6685536562013218292_n.jpg"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./mantenimiento.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Mantenimiento del motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Incluye cambio de aceite, revisión de filtros, correas,
-                inyectores y otros componentes esenciales para prolongar la vida
-                útil del motor.
-              </p>
-              <a
-                href="./mantenimiento.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
+        </aside>
       </div>
     </div>
 

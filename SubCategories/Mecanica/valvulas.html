@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Herramientas Recomendadas</title>
     <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .sidebar {
+        width: 25%; /* Ancho de la barra lateral */
+      }
+
+      @media (min-width: 768px) {
+        .main-content {
+          width: 70%; /* Ancho del contenido principal en pantallas medianas y grandes */
+        }
+      }
+    </style>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
@@ -284,197 +295,277 @@
 
     <!-- TARGETAS SUBCATEGORIAS / ITEMS -->
 
-    <div class="p-4 sm:ml-64">
+    <div class="max-w-4xl mx-auto px-4 space-y-10">
       <div class="p-4 rounded-lg dark:border-gray-700 mt-14">
-        <h1 class="text-4xl font-bold text-center text-gray-900 my-8">
-          Mecánica
-        </h1>
+        <header class="mb-8">
+          <h1 class="text-4xl font-bold text-gray-900">
+            Guía Completa sobre las Válvulas del Motor de Auto: Función y
+            Mantenimiento
+          </h1>
+          <p class="text-2xl text-gray-700 mt-2">
+            Descubre la importancia, el funcionamiento y el mantenimiento de las
+            válvulas del motor para asegurar el rendimiento óptimo de tu
+            vehículo.
+          </p>
+        </header>
 
-        <div class="grid grid-cols-3 gap-4 justify-items-center">
-          <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
-          >
-            <a href="./cambio.html">
-              <img
-                class="rounded-t-lg"
-                src="https://cdn.club-magazin.autodoc.de/uploads/sites/11/2020/11/como-se-alinean-las-ruedas-de-un-coche.jpg"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./cambio.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Cambio de ruedas y alineación
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Revisión del desgaste de neumáticos, cambio de llantas y
-                alineación para evitar problemas de estabilidad y consumo
-                irregular de combustible.
-              </p>
-              <a
-                href="./cambio.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+        <section
+          class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+        >
+          <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+            1. ¿Qué son las Válvulas del Motor y cuál es su Función Principal?
+          </h2>
+          <p class="text-2xl leading-relaxed mb-4">
+            <span class="font-semibold text-gray-800"
+              >Las válvulas del motor</span
+            >
+            son componentes cruciales que controlan el flujo de gases dentro y
+            fuera de los cilindros del motor durante el ciclo de combustión.
+          </p>
+          <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+            <li class="mb-2">
+              <span class="text-gray-700 font-semibold"
+                >Válvulas de admisión:</span
               >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
+              Permiten la entrada de la mezcla de aire y combustible al
+              cilindro.
+            </li>
+            <li class="mb-2">
+              <span class="text-gray-700 font-semibold"
+                >Válvulas de escape:</span
+              >
+              Permiten la salida de los gases quemados del cilindro.
+            </li>
+            <li class="mb-2">
+              <span class="text-gray-700 font-semibold"
+                >Sincronización precisa:</span
+              >
+              Su apertura y cierre deben estar perfectamente sincronizados con
+              el movimiento de los pistones.
+            </li>
+          </ul>
+        </section>
 
-          <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
-          >
-            <a href="./valvulas.html">
-              <img
-                class="rounded-t-lg"
-                src="https://rehisaresortes.mx/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/08/por-que-se-rompen-los-resortes-de-valvulas-de-motor.jpg.webp"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./valvulas.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Válvulas del motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Inspección y ajuste de las válvulas del motor para evitar
-                pérdida de compresión y mejorar el rendimiento del vehículo.
-              </p>
-              <a
-                href="./valvulas.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+        <section
+          class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+        >
+          <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+            2. Componentes Principales de una Válvula de Motor
+          </h2>
+          <p class="text-2xl leading-relaxed mb-4">
+            Cada válvula está compuesta por varias partes que trabajan en
+            conjunto para asegurar su correcto funcionamiento.
+          </p>
+          <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+            <li class="mb-2">
+              <span class="text-gray-700 font-semibold"
+                >Cabeza de la válvula:</span
               >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
-          <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
-          >
-            <a href="./motor.html">
-              <img
-                class="rounded-t-lg"
-                src="https://www.rodesrecambios.es/wp-content/uploads/2022/06/cambiar-motor-coche.png"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./motor.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Cambio de motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Sustitución completa del motor por uno nuevo o reacondicionado.
-                Se realiza cuando el motor sufre daños irreparables.
-              </p>
-              <a
-                href="./motor.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              La parte que sella contra el asiento de la válvula.
+            </li>
+            <li class="mb-2">
+              <span class="text-gray-700 font-semibold"
+                >Vástago de la válvula:</span
               >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
-          <div
-            class="max-w-sm col-span-3 justify-self-center bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
-          >
-            <a href="./mantenimiento.html">
-              <img
-                class="rounded-t-lg"
-                src="https://repsaautocentro.com/wp-content/uploads/2018/05/18268493_1514541068578857_6685536562013218292_n.jpg"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./mantenimiento.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Mantenimiento del motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Incluye cambio de aceite, revisión de filtros, correas,
-                inyectores y otros componentes esenciales para prolongar la vida
-                útil del motor.
-              </p>
-              <a
-                href="./mantenimiento.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              La parte alargada que se desliza dentro de la guía de la válvula.
+            </li>
+            <li class="mb-2">
+              <span class="text-gray-700 font-semibold"
+                >Guía de la válvula:</span
               >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
+              Un cilindro que soporta y guía el movimiento del vástago.
+            </li>
+            <li class="mb-2">
+              <span class="text-gray-700 font-semibold"
+                >Asiento de la válvula:</span
+              >
+              Una superficie mecanizada en la culata contra la que sella la
+              cabeza de la válvula.
+            </li>
+            <li class="mb-2">
+              <span class="text-gray-700 font-semibold"
+                >Resorte de la válvula:</span
+              >
+              Mantiene la válvula cerrada y la devuelve a su posición después de
+              ser accionada.
+            </li>
+            <li class="mb-2">
+              <span class="text-gray-700 font-semibold"
+                >Plato del resorte y retenes:</span
+              >
+              Aseguran el resorte en su lugar.
+            </li>
+          </ul>
+        </section>
+
+        <section
+          class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+        >
+          <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+            3. Funcionamiento del Sistema de Válvulas en el Ciclo del Motor
+          </h2>
+          <p class="text-2xl leading-relaxed mb-4">
+            El sistema de válvulas opera en sincronía con el movimiento de los
+            pistones a través del árbol de levas.
+          </p>
+          <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+            <li class="mb-2">
+              <span class="text-gray-700 font-semibold">Admisión:</span> La
+              válvula de admisión se abre mientras el pistón baja, aspirando la
+              mezcla aire-combustible.
+            </li>
+            <li class="mb-2">
+              <span class="text-gray-700 font-semibold">Compresión:</span> Ambas
+              válvulas están cerradas mientras el pistón sube, comprimiendo la
+              mezcla.
+            </li>
+            <li class="mb-2">
+              <span class="text-gray-700 font-semibold"
+                >Explosión/Combustión:</span
+              >
+              Ambas válvulas permanecen cerradas mientras la bujía enciende la
+              mezcla, empujando el pistón hacia abajo.
+            </li>
+            <li class="mb-2">
+              <span class="text-gray-700 font-semibold">Escape:</span> La
+              válvula de escape se abre mientras el pistón sube, expulsando los
+              gases quemados.
+            </li>
+          </ul>
+        </section>
+
+        <section
+          class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+        >
+          <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+            4. Problemas Comunes con las Válvulas del Motor
+          </h2>
+          <p class="text-2xl leading-relaxed mb-4">
+            Diversos factores pueden causar problemas en las válvulas, afectando
+            el rendimiento del motor.
+          </p>
+          <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+            <li class="mb-2">
+              <span class="text-gray-700 font-semibold"
+                >Válvulas quemadas:</span
+              >
+              Causadas por un sellado deficiente y altas temperaturas.
+            </li>
+            <li class="mb-2">
+              <span class="text-gray-700 font-semibold"
+                >Depósitos de carbón:</span
+              >
+              Acumulación de residuos que impiden el cierre correcto.
+            </li>
+            <li class="mb-2">
+              <span class="text-gray-700 font-semibold"
+                >Válvulas dobladas:</span
+              >
+              Generalmente resultado de una rotura de la correa o cadena de
+              distribución.
+            </li>
+            <li class="mb-2">
+              <span class="text-gray-700 font-semibold"
+                >Desgaste de las guías de válvula:</span
+              >
+              Provoca holgura y un sellado deficiente.
+            </li>
+            <li class="mb-2">
+              <span class="text-gray-700 font-semibold"
+                >Resortes de válvula rotos o debilitados:</span
+              >
+              Afectan el cierre adecuado de la válvula.
+            </li>
+          </ul>
+        </section>
+
+        <section
+          class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+        >
+          <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+            5. Mantenimiento Preventivo de las Válvulas del Motor
+          </h2>
+          <p class="text-2xl leading-relaxed mb-4">
+            Un mantenimiento adecuado puede prolongar la vida útil de las
+            válvulas y prevenir problemas costosos.
+          </p>
+          <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+            <li class="mb-2">
+              <span class="text-gray-700 font-semibold"
+                >Cambios de aceite regulares:</span
+              >
+              Utilizar el aceite recomendado por el fabricante.
+            </li>
+            <li class="mb-2">
+              <span class="text-gray-700 font-semibold"
+                >Reemplazo de la correa o cadena de distribución según el
+                intervalo recomendado.</span
+              >
+            </li>
+            <li class="mb-2">
+              <span class="text-gray-700 font-semibold"
+                >Inspección periódica del sistema de encendido.</span
+              >
+            </li>
+            <li class="mb-2">
+              <span class="text-gray-700 font-semibold"
+                >Utilizar combustible de buena calidad.</span
+              >
+            </li>
+            <li class="mb-2">
+              <span class="text-gray-700 font-semibold"
+                >Considerar la limpieza de inyectores para evitar
+                depósitos.</span
+              >
+            </li>
+          </ul>
+        </section>
+
+        <section
+          class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+        >
+          <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+            6. Señales de Problemas en las Válvulas del Motor
+          </h2>
+          <p class="text-2xl leading-relaxed mb-4">
+            Estar atento a ciertas señales puede indicar problemas con las
+            válvulas.
+          </p>
+          <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+            <li class="mb-2">
+              <span class="text-gray-700 font-semibold"
+                >Pérdida de potencia del motor.</span
+              >
+            </li>
+            <li class="mb-2">
+              <span class="text-gray-700 font-semibold"
+                >Ralentí inestable o irregular.</span
+              >
+            </li>
+            <li class="mb-2">
+              <span class="text-gray-700 font-semibold"
+                >Ruido de golpeteo o traqueteo en el motor.</span
+              >
+            </li>
+            <li class="mb-2">
+              <span class="text-gray-700 font-semibold"
+                >Mayor consumo de combustible.</span
+              >
+            </li>
+            <li class="mb-2">
+              <span class="text-gray-700 font-semibold"
+                >Humo excesivo por el escape.</span
+              >
+            </li>
+          </ul>
+          <p class="text-2xl leading-relaxed mt-4">
+            <span class="font-semibold text-gray-800"
+              >Ante cualquiera de estas señales,</span
+            >
+            es crucial acudir a un taller mecánico de confianza para una
+            revisión profesional.
+          </p>
+        </section>
       </div>
     </div>
 

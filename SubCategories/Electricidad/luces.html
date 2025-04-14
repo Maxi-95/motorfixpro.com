@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Herramientas Recomendadas</title>
     <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .sidebar {
+        width: 25%; /* Ancho de la barra lateral */
+      }
+
+      @media (min-width: 768px) {
+        .main-content {
+          width: 70%; /* Ancho del contenido principal en pantallas medianas y grandes */
+        }
+      }
+    </style>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
@@ -284,197 +295,334 @@
 
     <!-- TARGETAS SUBCATEGORIAS / ITEMS -->
 
-    <div class="p-4 sm:ml-64">
-      <div class="p-4 rounded-lg dark:border-gray-700 mt-14">
-        <h1 class="text-4xl font-bold text-center text-gray-900 my-8">
-          Mecánica
-        </h1>
+    <div class="mt-20 sm:ml-64">
+      <div
+        class="font-sans antialiased text-gray-800 p-6 flex flex-col md:flex-row"
+      >
+        <main class="main-content mb-8 md:mr-8">
+          <header class="mb-8">
+            <h1 class="text-4xl font-bold text-gray-900">
+              Guía Completa sobre los Sistemas de Luces del Auto: Seguridad y
+              Funcionamiento
+            </h1>
+            <p class="text-2xl text-gray-700 mt-2">
+              Entiende la importancia y el funcionamiento de cada componente del
+              sistema de luces de tu vehículo para una conducción segura.
+            </p>
+          </header>
 
-        <div class="grid grid-cols-3 gap-4 justify-items-center">
-          <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
           >
-            <a href="./cambio.html">
-              <img
-                class="rounded-t-lg"
-                src="https://cdn.club-magazin.autodoc.de/uploads/sites/11/2020/11/como-se-alinean-las-ruedas-de-un-coche.jpg"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./cambio.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Cambio de ruedas y alineación
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Revisión del desgaste de neumáticos, cambio de llantas y
-                alineación para evitar problemas de estabilidad y consumo
-                irregular de combustible.
-              </p>
-              <a
-                href="./cambio.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              1. La Importancia Vital de un Sistema de Luces Funcional
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >Un sistema de luces en perfecto estado</span
               >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
+              es crucial para la seguridad vial, garantizando la visibilidad del
+              conductor y la señalización a otros usuarios de la vía.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Visibilidad nocturna y en condiciones adversas:</span
                 >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
+                Permiten al conductor ver claramente el camino y los obstáculos.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Señalización de intenciones:</span
+                >
+                Indican giros, frenadas y otras maniobras a otros conductores y
+                peatones.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Cumplimiento de la normativa:</span
+                >
+                Circular con luces defectuosas puede acarrear multas y poner en
+                riesgo la seguridad.
+              </li>
+            </ul>
+          </section>
 
-          <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
           >
-            <a href="./valvulas.html">
-              <img
-                class="rounded-t-lg"
-                src="https://rehisaresortes.mx/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/08/por-que-se-rompen-los-resortes-de-valvulas-de-motor.jpg.webp"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./valvulas.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              2. Componentes Principales del Sistema de Luces Automotriz
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              El sistema de luces de un automóvil está compuesto por varios
+              tipos de luces, cada una con una función específica.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Faros delanteros:</span
                 >
-                  Válvulas del motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Inspección y ajuste de las válvulas del motor para evitar
-                pérdida de compresión y mejorar el rendimiento del vehículo.
-              </p>
-              <a
-                href="./valvulas.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                Proporcionan iluminación hacia adelante para la conducción
+                nocturna o con baja visibilidad. Incluyen luces bajas (de cruce)
+                y luces altas (de carretera).
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold">Luces traseras:</span>
+                Indican la presencia del vehículo y su ancho desde atrás.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold">Luces de freno:</span>
+                Se encienden al pisar el pedal de freno para alertar a los
+                vehículos que vienen detrás.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Luces direccionales (intermitentes):</span
+                >
+                Señalan los giros o cambios de carril.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Luces de posición (antiniebla delanteras y traseras):</span
+                >
+                Mejoran la visibilidad del vehículo en condiciones de niebla
+                densa.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Luces de marcha atrás:</span
+                >
+                Se encienden al seleccionar la marcha atrás para iluminar la
+                zona posterior y alertar a otros.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Luces de matrícula:</span
+                >
+                Iluminan la placa de matrícula trasera para su correcta
+                identificación.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Luces interiores:</span
+                >
+                Proporcionan iluminación dentro del habitáculo.
+              </li>
+            </ul>
+          </section>
+
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+          >
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              3. Tipos de Tecnología de Iluminación Automotriz
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              La tecnología de iluminación en los automóviles ha evolucionado
+              significativamente a lo largo del tiempo.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold">Halógeno:</span> La
+                tecnología más tradicional y aún común en muchos vehículos.
+                Utiliza un filamento de tungsteno en una atmósfera de gas
+                halógeno.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Xenón (HID - High-Intensity Discharge):</span
+                >
+                Produce una luz más brillante y blanca que el halógeno, con
+                mayor eficiencia energética y vida útil.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >LED (Light Emitting Diode):</span
+                >
+                Ofrece alta eficiencia, larga vida útil, diseño compacto y gran
+                versatilidad en el diseño de las luces.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold">Láser:</span> La
+                tecnología más reciente y avanzada, que proporciona una
+                iluminación de largo alcance muy intensa, aunque aún se
+                encuentra en modelos de gama alta.
+              </li>
+            </ul>
+            <p class="text-2xl leading-relaxed my-4">
+              Visualiza la diferencia entre la luz
+              <span class="font-semibold text-gray-800"
+                >amarillenta y tenue de una bombilla halógena</span
               >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
+              y la luz
+              <span class="font-semibold text-gray-800"
+                >blanca y brillante de un faro LED</span
+              >, mejorando significativamente la visibilidad.
+            </p>
+            <img
+              src="https://via.placeholder.com/400x300/ffffcc/808000?Text=Halógeno+vs+LED"
+              alt="Comparación Halógeno vs LED"
+              class="mx-auto block rounded-md shadow-md mb-4"
+            />
+
+            <p class="text-2xl leading-relaxed my-4">
+              Imagina cómo las
+              <span class="font-semibold text-gray-800"
+                >luces de freno LED</span
+              >
+              se encienden instantáneamente al presionar el pedal, alertando de
+              manera rápida y efectiva a los conductores que vienen detrás,
+              aumentando la seguridad.
+            </p>
+            <img
+              src="https://via.placeholder.com/400x300/ffaaaa/8b0000?Text=Luces+de+Freno+LED"
+              alt="Luces de Freno LED Encendidas"
+              class="mx-auto block rounded-md shadow-md mb-4"
+            />
+          </section>
+
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+          >
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              4. Mantenimiento Preventivo del Sistema de Luces
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              Un mantenimiento regular puede prevenir fallos y asegurar que
+              todas las luces funcionen correctamente.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Inspección regular:</span
                 >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
+                Verificar que todas las luces funcionen correctamente antes de
+                cada viaje, especialmente las luces de freno y direccionales.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Limpieza de las luces:</span
+                >
+                Mantener las luces limpias de suciedad y residuos para asegurar
+                una óptima luminosidad.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Reemplazo de bombillas fundidas:</span
+                >
+                Sustituir inmediatamente cualquier bombilla que no funcione.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Ajuste de los faros delanteros:</span
+                >
+                Asegurar que estén correctamente alineados para una visibilidad
+                óptima sin deslumbrar a otros conductores.
+              </li>
+            </ul>
+          </section>
+
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+          >
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              5. Problemas Comunes en el Sistema de Luces
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              Varios problemas pueden afectar el funcionamiento de las luces del
+              automóvil.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Bombillas fundidas.</span
+                >
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Fusibles quemados.</span
+                >
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Problemas de cableado o conexiones defectuosas.</span
+                >
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Interruptores defectuosos.</span
+                >
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Faros desalineados.</span
+                >
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Condensación dentro de las luces.</span
+                >
+              </li>
+            </ul>
+          </section>
+
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+          >
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              6. Importancia de la Revisión Profesional del Sistema de Luces
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >Ante cualquier problema con el sistema de luces,</span
+              >
+              es recomendable acudir a un taller mecánico especializado para un
+              diagnóstico y reparación adecuados.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Diagnóstico preciso de problemas eléctricos.</span
+                >
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Ajuste profesional de los faros delanteros.</span
+                >
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Garantía de un funcionamiento seguro y conforme a la
+                  normativa.</span
+                >
+              </li>
+            </ul>
+          </section>
+        </main>
+
+        <aside
+          class="sidebar w-full md:w-1/4 p-6 bg-gray-200 rounded-md shadow-md"
+        >
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">
+            Espacio para Anuncios
+          </h2>
+          <p class="text-lg text-gray-700 mb-4">
+            Este es un espacio reservado para futuros anuncios de Google AdSense
+            u otro contenido promocional relevante para la reparación y
+            mantenimiento de sistemas de luces automotrices.
+          </p>
+          <div
+            class="bg-gray-300 h-40 rounded-md mb-4 flex items-center justify-center text-gray-500"
+          >
+            Anuncio 1
           </div>
           <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+            class="bg-gray-300 h-40 rounded-md mb-4 flex items-center justify-center text-gray-500"
           >
-            <a href="./motor.html">
-              <img
-                class="rounded-t-lg"
-                src="https://www.rodesrecambios.es/wp-content/uploads/2022/06/cambiar-motor-coche.png"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./motor.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Cambio de motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Sustitución completa del motor por uno nuevo o reacondicionado.
-                Se realiza cuando el motor sufre daños irreparables.
-              </p>
-              <a
-                href="./motor.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
+            Anuncio 2
           </div>
-          <div
-            class="max-w-sm col-span-3 justify-self-center bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
-          >
-            <a href="./mantenimiento.html">
-              <img
-                class="rounded-t-lg"
-                src="https://repsaautocentro.com/wp-content/uploads/2018/05/18268493_1514541068578857_6685536562013218292_n.jpg"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./mantenimiento.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Mantenimiento del motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Incluye cambio de aceite, revisión de filtros, correas,
-                inyectores y otros componentes esenciales para prolongar la vida
-                útil del motor.
-              </p>
-              <a
-                href="./mantenimiento.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
+        </aside>
       </div>
     </div>
 

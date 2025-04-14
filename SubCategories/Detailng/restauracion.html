@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Herramientas Recomendadas</title>
     <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .sidebar {
+        width: 25%; /* Ancho de la barra lateral */
+      }
+
+      @media (min-width: 768px) {
+        .main-content {
+          width: 70%; /* Ancho del contenido principal en pantallas medianas y grandes */
+        }
+      }
+    </style>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
@@ -284,197 +295,282 @@
 
     <!-- TARGETAS SUBCATEGORIAS / ITEMS -->
 
-    <div class="p-4 sm:ml-64">
-      <div class="p-4 rounded-lg dark:border-gray-700 mt-14">
-        <h1 class="text-4xl font-bold text-center text-gray-900 my-8">
-          Mecánica
-        </h1>
+    <div class="mt-20 sm:ml-64">
+      <div
+        class="font-sans antialiased text-gray-800 p-6 flex flex-col md:flex-row"
+      >
+        <main class="main-content mb-8 md:mr-8">
+          <header class="mb-8">
+            <h1 class="text-4xl font-bold text-gray-900">
+              Guía sobre la Restauración Profesional de Faros Automotrices:
+              Información Detallada
+            </h1>
+            <p class="text-2xl text-gray-700 mt-2">
+              Descubre las técnicas y los beneficios de la restauración
+              profesional de faros para mejorar la visibilidad y la estética de
+              tu vehículo.
+            </p>
+          </header>
 
-        <div class="grid grid-cols-3 gap-4 justify-items-center">
-          <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
           >
-            <a href="./cambio.html">
-              <img
-                class="rounded-t-lg"
-                src="https://cdn.club-magazin.autodoc.de/uploads/sites/11/2020/11/como-se-alinean-las-ruedas-de-un-coche.jpg"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./cambio.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Cambio de ruedas y alineación
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Revisión del desgaste de neumáticos, cambio de llantas y
-                alineación para evitar problemas de estabilidad y consumo
-                irregular de combustible.
-              </p>
-              <a
-                href="./cambio.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              1. ¿Por Qué se Deterioran los Faros de los Autos?
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >Los faros de los automóviles modernos</span
               >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
+              están típicamente fabricados con policarbonato, un tipo de
+              plástico resistente pero susceptible al deterioro con el tiempo
+              debido a diversos factores.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700">Radiación ultravioleta (UV):</span>
+                La exposición constante al sol provoca la oxidación de la capa
+                protectora del policarbonato, lo que lleva al amarilleamiento y
+                la opacidad.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Impacto de residuos de la carretera:</span
                 >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
+                Pequeñas piedras, arena, insectos y otros desechos pueden rayar
+                la superficie de los faros.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Productos químicos:</span> Algunos
+                limpiadores de autos agresivos o ceras pueden dañar la capa
+                protectora.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Humedad y condensación interna:</span
+                >
+                Pueden causar nebulosidad dentro del faro.
+              </li>
+            </ul>
+          </section>
 
-          <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
           >
-            <a href="./valvulas.html">
-              <img
-                class="rounded-t-lg"
-                src="https://rehisaresortes.mx/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/08/por-que-se-rompen-los-resortes-de-valvulas-de-motor.jpg.webp"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./valvulas.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Válvulas del motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Inspección y ajuste de las válvulas del motor para evitar
-                pérdida de compresión y mejorar el rendimiento del vehículo.
-              </p>
-              <a
-                href="./valvulas.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              2. Beneficios de la Restauración Profesional de Faros
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >Restaurar los faros deteriorados</span
               >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
+              ofrece múltiples ventajas tanto en términos de seguridad como de
+              estética.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Mejora significativa de la visibilidad nocturna:</span
                 >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
+                Los faros limpios y transparentes proyectan la luz de manera más
+                efectiva, iluminando mejor la carretera y los obstáculos.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Aumento de la seguridad vial:</span>
+                Una mejor visibilidad reduce el riesgo de accidentes,
+                especialmente en condiciones de poca luz o mal tiempo.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Mejora de la estética del vehículo:</span
+                >
+                Los faros opacos y amarillentos hacen que el auto parezca viejo
+                y descuidado. La restauración devuelve un aspecto limpio y
+                moderno.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Ahorro económico en comparación con el reemplazo:</span
+                >
+                La restauración es generalmente mucho más económica que comprar
+                faros nuevos, que pueden ser costosos.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Prevención de problemas futuros:</span
+                >
+                La aplicación de un sellador protector después de la
+                restauración ayuda a prevenir el deterioro prematuro.
+              </li>
+            </ul>
+          </section>
+
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+          >
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              3. Proceso Típico de Restauración Profesional de Faros
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >Los profesionales de la restauración de faros</span
+              >
+              siguen un proceso meticuloso para obtener resultados óptimos.
+            </p>
+            <ul class="list-decimal list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700">Limpieza inicial:</span> Se limpian
+                a fondo los faros para eliminar la suciedad superficial y los
+                residuos.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Lijado progresivo:</span> Se
+                utilizan lijas de grano cada vez más fino para eliminar la capa
+                oxidada y los arañazos de la superficie del policarbonato. Este
+                paso es crucial para alisar la superficie.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Pulido:</span> Se utilizan
+                compuestos de pulido y máquinas pulidoras para restaurar la
+                claridad y el brillo del plástico. Se utilizan diferentes tipos
+                de compuestos y pads para obtener un acabado óptimo.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Limpieza final:</span> Se limpian
+                los faros para eliminar cualquier residuo de pulido.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Aplicación de sellador protector UV:</span
+                >
+                Se aplica una capa de sellador transparente con protección UV
+                para prevenir la futura oxidación y el amarilleamiento. Este
+                sellador puede ser en forma de spray, líquido o incluso una
+                película protectora.
+              </li>
+            </ul>
+          </section>
+
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+          >
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              4. Productos y Herramientas Profesionales Utilizados
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >Los profesionales utilizan productos y herramientas de alta
+                calidad</span
+              >
+              para asegurar un resultado duradero y de aspecto profesional.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Kits de lijado progresivo con diferentes granos.</span
+                >
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Compuestos de pulido específicos para policarbonato.</span
+                >
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Máquinas pulidoras orbitales o rotativas.</span
+                >
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Pads de pulido de diferentes tipos (espuma,
+                  microfibra).</span
+                >
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Cintas de enmascarar de alta calidad para proteger la pintura
+                  circundante.</span
+                >
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Limpiadores de superficies.</span>
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Selladores protectores UV (líquidos, sprays,
+                  películas).</span
+                >
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Paños de microfibra limpios.</span>
+              </li>
+            </ul>
+          </section>
+
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+          >
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              5. Mantenimiento Posterior a la Restauración
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >Después de la restauración,</span
+              >
+              un mantenimiento adecuado puede ayudar a prolongar la claridad de
+              los faros.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Limpieza regular con agua y jabón suave.</span
+                >
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Evitar el uso de limpiadores abrasivos o productos químicos
+                  agresivos.</span
+                >
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Aplicación periódica de un sellador UV (cada pocos meses,
+                  según el producto).</span
+                >
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Considerar la aplicación de una película protectora (PPF)
+                  para una protección más duradera contra arañazos y los
+                  elementos.</span
+                >
+              </li>
+            </ul>
+          </section>
+        </main>
+
+        <aside
+          class="sidebar w-full md:w-1/4 p-6 bg-gray-200 rounded-md shadow-md"
+        >
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">
+            Espacio para Anuncios
+          </h2>
+          <p class="text-lg text-gray-700 mb-4">
+            Este es un espacio reservado para futuros anuncios de Google AdSense
+            u otro contenido promocional relevante para servicios y productos de
+            restauración de faros automotrices.
+          </p>
+          <div
+            class="bg-gray-300 h-40 rounded-md mb-4 flex items-center justify-center text-gray-500"
+          >
+            Anuncio 1
           </div>
           <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+            class="bg-gray-300 h-40 rounded-md mb-4 flex items-center justify-center text-gray-500"
           >
-            <a href="./motor.html">
-              <img
-                class="rounded-t-lg"
-                src="https://www.rodesrecambios.es/wp-content/uploads/2022/06/cambiar-motor-coche.png"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./motor.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Cambio de motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Sustitución completa del motor por uno nuevo o reacondicionado.
-                Se realiza cuando el motor sufre daños irreparables.
-              </p>
-              <a
-                href="./motor.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
+            Anuncio 2
           </div>
-          <div
-            class="max-w-sm col-span-3 justify-self-center bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
-          >
-            <a href="./mantenimiento.html">
-              <img
-                class="rounded-t-lg"
-                src="https://repsaautocentro.com/wp-content/uploads/2018/05/18268493_1514541068578857_6685536562013218292_n.jpg"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./mantenimiento.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Mantenimiento del motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Incluye cambio de aceite, revisión de filtros, correas,
-                inyectores y otros componentes esenciales para prolongar la vida
-                útil del motor.
-              </p>
-              <a
-                href="./mantenimiento.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
+        </aside>
       </div>
     </div>
 

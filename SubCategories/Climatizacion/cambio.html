@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Herramientas Recomendadas</title>
     <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .sidebar {
+        width: 25%; /* Ancho de la barra lateral */
+      }
+
+      @media (min-width: 768px) {
+        .main-content {
+          width: 70%; /* Ancho del contenido principal en pantallas medianas y grandes */
+        }
+      }
+    </style>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
@@ -284,197 +295,270 @@
 
     <!-- TARGETAS SUBCATEGORIAS / ITEMS -->
 
-    <div class="p-4 sm:ml-64">
-      <div class="p-4 rounded-lg dark:border-gray-700 mt-14">
-        <h1 class="text-4xl font-bold text-center text-gray-900 my-8">
-          Mecánica
-        </h1>
+    <div class="mt-20 sm:ml-64">
+      <div
+        class="font-sans antialiased text-gray-800 p-6 flex flex-col md:flex-row"
+      >
+        <main class="main-content mb-8 md:mr-8">
+          <header class="mb-8">
+            <h1 class="text-4xl font-bold text-gray-900">
+              Guía sobre el Cambio del Filtro de Habitáculo Automotriz: Paso a
+              Paso
+            </h1>
+            <p class="text-2xl text-gray-700 mt-2">
+              Descubre el proceso paso a paso para reemplazar el filtro de
+              habitáculo de tu automóvil y mejorar la calidad del aire interior.
+            </p>
+          </header>
 
-        <div class="grid grid-cols-3 gap-4 justify-items-center">
-          <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
           >
-            <a href="./cambio.html">
-              <img
-                class="rounded-t-lg"
-                src="https://cdn.club-magazin.autodoc.de/uploads/sites/11/2020/11/como-se-alinean-las-ruedas-de-un-coche.jpg"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./cambio.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Cambio de ruedas y alineación
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Revisión del desgaste de neumáticos, cambio de llantas y
-                alineación para evitar problemas de estabilidad y consumo
-                irregular de combustible.
-              </p>
-              <a
-                href="./cambio.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              1. Localización del Filtro de Habitáculo
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >El primer paso es encontrar la ubicación del filtro de
+                habitáculo</span
               >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
+              en tu vehículo. Esta ubicación puede variar significativamente
+              entre diferentes marcas y modelos.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700">Manual del propietario:</span> La
+                fuente más fiable para encontrar la ubicación exacta del filtro
+                de habitáculo es el manual del propietario de tu automóvil.
+                Consulta la sección de mantenimiento o el índice bajo "filtro de
+                aire del habitáculo" o similar.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Ubicaciones comunes:</span> Algunas
+                ubicaciones comunes incluyen:
+                <ul class="list-disc list-inside ml-6 text-xl text-gray-500">
+                  <li class="mb-1">
+                    <span class="text-gray-600">Detrás de la guantera:</span>
+                    Esta es una ubicación muy frecuente. A menudo, la guantera
+                    debe retirarse parcial o totalmente para acceder a la
+                    carcasa del filtro.
+                  </li>
+                  <li class="mb-1">
+                    <span class="text-gray-600"
+                      >Debajo del tablero, del lado del pasajero:</span
+                    >
+                    En algunos vehículos, el filtro puede estar ubicado detrás
+                    de un panel de plástico debajo del tablero.
+                  </li>
+                  <li class="mb-1">
+                    <span class="text-gray-600"
+                      >Cerca de la consola central:</span
+                    >
+                    En algunos modelos, el acceso puede ser a través de un panel
+                    lateral en la consola central.
+                  </li>
+                  <li class="mb-1">
+                    <span class="text-gray-600"
+                      >En el compartimento del motor:</span
+                    >
+                    Aunque menos común, algunos filtros de habitáculo se
+                    encuentran cerca del motor, a menudo cerca del cortafuegos.
+                  </li>
+                </ul>
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Búsqueda en línea:</span> Si no
+                encuentras la ubicación en el manual, puedes buscar tutoriales
+                en video o guías específicas para tu marca y modelo de automóvil
+                en plataformas como YouTube o foros de propietarios.
+              </li>
+            </ul>
+          </section>
 
-          <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
           >
-            <a href="./valvulas.html">
-              <img
-                class="rounded-t-lg"
-                src="https://rehisaresortes.mx/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/08/por-que-se-rompen-los-resortes-de-valvulas-de-motor.jpg.webp"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./valvulas.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Válvulas del motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Inspección y ajuste de las válvulas del motor para evitar
-                pérdida de compresión y mejorar el rendimiento del vehículo.
-              </p>
-              <a
-                href="./valvulas.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              2. Preparación y Herramientas Necesarias
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >Antes de comenzar, asegúrate de tener las herramientas
+                adecuadas</span
               >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
+              y el nuevo filtro de habitáculo.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700">Nuevo filtro de habitáculo:</span>
+                Asegúrate de comprar el filtro correcto para tu marca y modelo
+                de automóvil. Puedes encontrar esta información en el manual del
+                propietario o consultando con un proveedor de autopartes.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Destornillador (varios tipos y tamaños):</span
                 >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
+                Dependiendo de los paneles que necesites retirar, es posible que
+                necesites destornilladores Phillips o planos.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Herramienta de palanca de plástico (opcional):</span
+                >
+                Estas herramientas pueden ayudar a retirar los paneles de
+                plástico sin dañarlos.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Aspiradora pequeña o cepillo:</span>
+                Para limpiar la carcasa del filtro antes de instalar el nuevo.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Linterna:</span> Para iluminar áreas
+                oscuras.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Guantes (opcional):</span> Para
+                mantener tus manos limpias.
+              </li>
+            </ul>
+          </section>
+
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+          >
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              3. Proceso de Reemplazo del Filtro (Ejemplo Común: Detrás de la
+              Guantera)
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >Este es un ejemplo común del proceso si el filtro está ubicado
+                detrás de la guantera.</span
+              >
+              Los pasos específicos pueden variar para otras ubicaciones.
+            </p>
+            <ul class="list-decimal list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700">Vaciar la guantera:</span> Retira
+                todos los objetos del interior de la guantera.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Retirar los topes o soportes de la guantera:</span
+                >
+                La guantera generalmente tiene topes o soportes en los laterales
+                o en la parte inferior que limitan su apertura. Presiona las
+                pestañas laterales hacia adentro o desengancha los soportes para
+                permitir que la guantera se abra completamente y se pueda
+                retirar o bajar más allá de su posición normal.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Localizar la carcasa del filtro:</span
+                >
+                Una vez que la guantera esté bajada o retirada, deberías poder
+                ver la carcasa rectangular o cuadrada que contiene el filtro de
+                habitáculo. Puede tener una tapa o una pestaña de liberación.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Abrir la carcasa del filtro:</span>
+                Desengancha las pestañas o retira los tornillos que sujetan la
+                tapa de la carcasa del filtro.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Retirar el filtro viejo:</span>
+                Extrae con cuidado el filtro viejo. Presta atención a la
+                dirección en la que está instalado (generalmente hay flechas que
+                indican el flujo de aire). Es posible que esté sucio y lleno de
+                polvo y hojas.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Limpiar la carcasa:</span> Utiliza
+                una aspiradora pequeña o un cepillo para limpiar cualquier
+                residuo o suciedad dentro de la carcasa del filtro.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Instalar el nuevo filtro:</span>
+                Inserta el nuevo filtro en la carcasa, asegurándote de que esté
+                orientado en la dirección correcta (siguiendo las flechas de
+                flujo de aire en el filtro, si las tiene).
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Cerrar la carcasa del filtro:</span>
+                Vuelve a colocar la tapa de la carcasa y asegúrala con las
+                pestañas o los tornillos.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Volver a colocar la guantera:</span>
+                Reengancha los soportes o topes de la guantera y ciérrala
+                correctamente.
+              </li>
+            </ul>
+          </section>
+
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+          >
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              4. Frecuencia de Reemplazo
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >La frecuencia recomendada para el reemplazo del filtro de
+                habitáculo</span
+              >
+              varía según el fabricante y las condiciones de conducción.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Recomendaciones del fabricante:</span
+                >
+                Consulta el manual del propietario para conocer el intervalo de
+                reemplazo recomendado, que suele estar entre 12,000 y 20,000
+                kilómetros o cada 12 a 24 meses.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Condiciones de conducción:</span> Si
+                conduces con frecuencia en áreas con mucho polvo, contaminación
+                o polen, es posible que necesites reemplazar el filtro con mayor
+                frecuencia.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Señales de un filtro sucio:</span>
+                Presta atención a las señales de un filtro de habitáculo
+                obstruido, como reducción del flujo de aire del sistema de
+                climatización, olores desagradables al encender el aire
+                acondicionado o la calefacción, y mayor empañamiento de los
+                cristales.
+              </li>
+            </ul>
+          </section>
+        </main>
+
+        <aside
+          class="sidebar w-full md:w-1/4 p-6 bg-gray-200 rounded-md shadow-md"
+        >
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">
+            Espacio para Anuncios
+          </h2>
+          <p class="text-lg text-gray-700 mb-4">
+            Este es un espacio reservado para futuros anuncios de Google AdSense
+            u otro contenido promocional relevante para filtros de habitáculo y
+            servicios de mantenimiento automotriz.
+          </p>
+          <div
+            class="bg-gray-300 h-40 rounded-md mb-4 flex items-center justify-center text-gray-500"
+          >
+            Anuncio 1
           </div>
           <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+            class="bg-gray-300 h-40 rounded-md mb-4 flex items-center justify-center text-gray-500"
           >
-            <a href="./motor.html">
-              <img
-                class="rounded-t-lg"
-                src="https://www.rodesrecambios.es/wp-content/uploads/2022/06/cambiar-motor-coche.png"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./motor.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Cambio de motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Sustitución completa del motor por uno nuevo o reacondicionado.
-                Se realiza cuando el motor sufre daños irreparables.
-              </p>
-              <a
-                href="./motor.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
+            Anuncio 2
           </div>
-          <div
-            class="max-w-sm col-span-3 justify-self-center bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
-          >
-            <a href="./mantenimiento.html">
-              <img
-                class="rounded-t-lg"
-                src="https://repsaautocentro.com/wp-content/uploads/2018/05/18268493_1514541068578857_6685536562013218292_n.jpg"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./mantenimiento.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Mantenimiento del motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Incluye cambio de aceite, revisión de filtros, correas,
-                inyectores y otros componentes esenciales para prolongar la vida
-                útil del motor.
-              </p>
-              <a
-                href="./mantenimiento.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
+        </aside>
       </div>
     </div>
 

@@ -4,6 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Herramientas Recomendadas</title>
+    <style>
+      .sidebar {
+        width: 25%; /* Ancho de la barra lateral */
+      }
+
+      @media (min-width: 768px) {
+        .main-content {
+          width: 70%; /* Ancho del contenido principal en pantallas medianas y grandes */
+        }
+      }
+    </style>
     <link rel="stylesheet" href="css/style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
@@ -284,197 +295,244 @@
 
     <!-- TARGETAS SUBCATEGORIAS / ITEMS -->
 
-    <div class="p-4 sm:ml-64">
-      <div class="p-4 rounded-lg dark:border-gray-700 mt-14">
-        <h1 class="text-4xl font-bold text-center text-gray-900 my-8">
-          Mecánica
-        </h1>
+    <div class="mt-20 sm:ml-64">
+      <div
+        class="font-sans antialiased text-gray-800 p-6 flex flex-col md:flex-row"
+      >
+        <main class="main-content mb-8 md:mr-8">
+          <header class="mb-8">
+            <h1 class="text-4xl font-bold text-gray-900">
+              Guía sobre el Purgado del Sistema de Frenos Automotriz:
+              Información Detallada
+            </h1>
+            <p class="text-2xl text-gray-700 mt-2">
+              Descubre el proceso y la importancia del purgado del sistema de
+              frenos para eliminar el aire y asegurar un funcionamiento óptimo y
+              seguro.
+            </p>
+          </header>
 
-        <div class="grid grid-cols-3 gap-4 justify-items-center">
-          <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
           >
-            <a href="./cambio.html">
-              <img
-                class="rounded-t-lg"
-                src="https://cdn.club-magazin.autodoc.de/uploads/sites/11/2020/11/como-se-alinean-las-ruedas-de-un-coche.jpg"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./cambio.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Cambio de ruedas y alineación
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Revisión del desgaste de neumáticos, cambio de llantas y
-                alineación para evitar problemas de estabilidad y consumo
-                irregular de combustible.
-              </p>
-              <a
-                href="./cambio.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              1. ¿Qué es el Purgado de Frenos y por Qué es Necesario?
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >El purgado de frenos</span
               >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
+              es el proceso de eliminar las burbujas de aire que puedan quedar
+              atrapadas en las líneas de freno y el líquido de frenos. La
+              presencia de aire en el sistema hidráulico de los frenos puede
+              comprometer seriamente su rendimiento.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700">Compresibilidad del aire:</span> A
+                diferencia del líquido de frenos, que es incompresible, el aire
+                sí se comprime. Si hay aire en el sistema, al presionar el pedal
+                del freno, en lugar de transmitir la presión hidráulica
+                directamente a las pinzas para detener el vehículo, parte de la
+                fuerza se utilizará para comprimir el aire, resultando en un
+                pedal esponjoso y una frenada deficiente.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Cuándo es necesario purgar los frenos:</span
                 >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
+                El purgado suele ser necesario después de realizar trabajos en
+                el sistema de frenos, como el reemplazo de pastillas, discos,
+                pinzas, cilindros de rueda, líneas de freno o la bomba de freno.
+                También se recomienda si el pedal del freno se siente esponjoso
+                o bajo, o si se sospecha la entrada de aire al sistema.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Mantenimiento preventivo:</span>
+                Aunque no es un procedimiento de mantenimiento regular, el
+                purgado es crucial para asegurar la seguridad y el correcto
+                funcionamiento del sistema de frenos después de cualquier
+                intervención.
+              </li>
+            </ul>
+          </section>
 
-          <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
           >
-            <a href="./valvulas.html">
-              <img
-                class="rounded-t-lg"
-                src="https://rehisaresortes.mx/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/08/por-que-se-rompen-los-resortes-de-valvulas-de-motor.jpg.webp"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./valvulas.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Válvulas del motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Inspección y ajuste de las válvulas del motor para evitar
-                pérdida de compresión y mejorar el rendimiento del vehículo.
-              </p>
-              <a
-                href="./valvulas.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              2. El Proceso General de Purgado de Frenos (Método Tradicional con
+              Dos Personas)
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >El método tradicional de purgado de frenos</span
               >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
+              requiere la colaboración de dos personas.
+            </p>
+            <ul class="list-decimal list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700">Preparación:</span> Se localizan las
+                válvulas de purga en cada pinza de freno o cilindro de rueda. Se
+                limpia la suciedad alrededor de estas válvulas. Se asegura que
+                el depósito del líquido de frenos esté lleno con líquido limpio
+                y del tipo correcto.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Conexión de la manguera:</span> Se
+                conecta un extremo de una manguera transparente a la válvula de
+                purga de una rueda (generalmente se comienza por la rueda más
+                alejada de la bomba de freno y se avanza hacia la más cercana).
+                El otro extremo de la manguera se sumerge en un recipiente con
+                una pequeña cantidad de líquido de frenos limpio. Esto evita que
+                el aire vuelva a entrar al sistema.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Bombeo del pedal:</span> Una persona
+                se sienta en el asiento del conductor y bombea el pedal del
+                freno varias veces hasta que sienta presión, y luego lo mantiene
+                presionado firmemente.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Apertura de la válvula de purga:</span
                 >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
+                Mientras el pedal está presionado, la otra persona abre
+                ligeramente la válvula de purga con una llave. Se observará cómo
+                sale líquido de frenos (posiblemente con burbujas de aire) a
+                través de la manguera hacia el recipiente.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Cierre de la válvula y liberación del pedal:</span
+                >
+                Antes de que el pedal del freno llegue al fondo, la persona que
+                está purgando cierra la válvula de purga. Luego, la persona en
+                el interior puede liberar el pedal del freno.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Repetición del proceso:</span> Se
+                repiten los pasos de bombeo, apertura, cierre y liberación
+                varias veces por cada rueda hasta que no salgan burbujas de aire
+                por la manguera y el flujo de líquido de frenos sea constante y
+                limpio.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Verificación del nivel de líquido:</span
+                >
+                Se verifica y se rellena el depósito del líquido de frenos según
+                sea necesario durante el proceso de purgado para evitar que el
+                nivel baje demasiado y entre aire al sistema por el depósito.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Purgado de las demás ruedas:</span>
+                Se repite el proceso para cada una de las ruedas restantes,
+                siguiendo el orden recomendado (generalmente: trasera derecha,
+                trasera izquierda, delantera derecha, delantera izquierda).
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Prueba del pedal:</span> Una vez
+                terminado el purgado, se prueba el pedal del freno. Debe
+                sentirse firme y no esponjoso.
+              </li>
+            </ul>
+          </section>
+
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+          >
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              3. El Proceso General de Purgado de Frenos (Método con Purgador de
+              Frenos Monopersonal)
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >Existen herramientas de purgado de frenos monopersonales</span
+              >
+              que facilitan el proceso sin necesidad de un asistente.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700">Purgador de vacío:</span> Utiliza
+                una bomba de vacío manual o eléctrica conectada a la válvula de
+                purga para succionar el líquido de frenos y el aire fuera del
+                sistema.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Purgador de presión:</span>
+                Presuriza el depósito del líquido de frenos, forzando el líquido
+                y el aire a salir por las válvulas de purga abiertas.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >El proceso generalmente implica conectar la herramienta a la
+                  válvula de purga, abrir la válvula y permitir que la
+                  herramienta extraiga el líquido hasta que no se observen
+                  burbujas de aire. Se repite en cada rueda, verificando
+                  constantemente el nivel del líquido de frenos en el
+                  depósito.</span
+                >
+              </li>
+            </ul>
+          </section>
+
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+          >
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              4. Importancia del Purgado Adecuado
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >Un purgado de frenos realizado correctamente</span
+              >
+              es esencial para la seguridad y el rendimiento del vehículo.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700">Pedal de freno firme:</span>
+                Eliminar el aire del sistema asegura que la presión aplicada al
+                pedal se transmita directamente a las pinzas, proporcionando una
+                sensación de pedal firme y una respuesta de frenado inmediata.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Frenado eficiente:</span> Un sistema
+                sin aire permite que los frenos funcionen con su máxima
+                eficacia, reduciendo la distancia de frenado.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Prevención de fallos:</span> El aire
+                en el sistema puede causar un funcionamiento errático de los
+                frenos e incluso la pérdida total de la capacidad de frenado en
+                situaciones extremas.
+              </li>
+            </ul>
+          </section>
+        </main>
+
+        <aside
+          class="sidebar w-full md:w-1/4 p-6 bg-gray-200 rounded-md shadow-md"
+        >
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">
+            Espacio para Anuncios
+          </h2>
+          <p class="text-lg text-gray-700 mb-4">
+            Este es un espacio reservado para futuros anuncios de Google AdSense
+            u otro contenido promocional relevante para servicios de purgado de
+            frenos, líquido de frenos y herramientas de frenado.
+          </p>
+          <div
+            class="bg-gray-300 h-40 rounded-md mb-4 flex items-center justify-center text-gray-500"
+          >
+            Anuncio 1
           </div>
           <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+            class="bg-gray-300 h-40 rounded-md mb-4 flex items-center justify-center text-gray-500"
           >
-            <a href="./motor.html">
-              <img
-                class="rounded-t-lg"
-                src="https://www.rodesrecambios.es/wp-content/uploads/2022/06/cambiar-motor-coche.png"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./motor.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Cambio de motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Sustitución completa del motor por uno nuevo o reacondicionado.
-                Se realiza cuando el motor sufre daños irreparables.
-              </p>
-              <a
-                href="./motor.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
+            Anuncio 2
           </div>
-          <div
-            class="max-w-sm col-span-3 justify-self-center bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
-          >
-            <a href="./mantenimiento.html">
-              <img
-                class="rounded-t-lg"
-                src="https://repsaautocentro.com/wp-content/uploads/2018/05/18268493_1514541068578857_6685536562013218292_n.jpg"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./mantenimiento.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Mantenimiento del motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Incluye cambio de aceite, revisión de filtros, correas,
-                inyectores y otros componentes esenciales para prolongar la vida
-                útil del motor.
-              </p>
-              <a
-                href="./mantenimiento.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
+        </aside>
       </div>
     </div>
 

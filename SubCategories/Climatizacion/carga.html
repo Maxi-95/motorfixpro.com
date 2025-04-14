@@ -4,6 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Herramientas Recomendadas</title>
+    <style>
+      .sidebar {
+        width: 25%; /* Ancho de la barra lateral */
+      }
+
+      @media (min-width: 768px) {
+        .main-content {
+          width: 70%; /* Ancho del contenido principal en pantallas medianas y grandes */
+        }
+      }
+    </style>
     <link rel="stylesheet" href="css/style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
@@ -284,197 +295,232 @@
 
     <!-- TARGETAS SUBCATEGORIAS / ITEMS -->
 
-    <div class="p-4 sm:ml-64">
-      <div class="p-4 rounded-lg dark:border-gray-700 mt-14">
-        <h1 class="text-4xl font-bold text-center text-gray-900 my-8">
-          Mecánica
-        </h1>
+    <div class="mt-20 sm:ml-64">
+      <div
+        class="font-sans antialiased text-gray-800 p-6 flex flex-col md:flex-row"
+      >
+        <main class="main-content mb-8 md:mr-8">
+          <header class="mb-8">
+            <h1 class="text-4xl font-bold text-gray-900">
+              Guía sobre la Carga de Aire Acondicionado Automotriz: Información
+              Detallada
+            </h1>
+            <p class="text-2xl text-gray-700 mt-2">
+              Descubre el proceso y la importancia de la carga de refrigerante
+              en el sistema de aire acondicionado de tu automóvil para un
+              funcionamiento óptimo.
+            </p>
+          </header>
 
-        <div class="grid grid-cols-3 gap-4 justify-items-center">
-          <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
           >
-            <a href="./cambio.html">
-              <img
-                class="rounded-t-lg"
-                src="https://cdn.club-magazin.autodoc.de/uploads/sites/11/2020/11/como-se-alinean-las-ruedas-de-un-coche.jpg"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./cambio.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Cambio de ruedas y alineación
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Revisión del desgaste de neumáticos, cambio de llantas y
-                alineación para evitar problemas de estabilidad y consumo
-                irregular de combustible.
-              </p>
-              <a
-                href="./cambio.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              1. ¿Qué es la Carga de Aire Acondicionado?
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >La carga de aire acondicionado</span
               >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
+              se refiere al proceso de rellenar el sistema de climatización del
+              automóvil con el refrigerante adecuado. Este refrigerante es un
+              fluido especial que absorbe el calor del interior del vehículo y
+              lo libera al exterior, enfriando así el aire.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700">El refrigerante:</span> Es el
+                componente vital del sistema de A/C. Los tipos comunes incluyen
+                R-134a (más antiguo) y R-1234yf (más moderno y ecológico).
+                Utilizar el refrigerante incorrecto puede dañar el sistema.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Sistema sellado:</span> El sistema
+                de A/C es un circuito cerrado. Si el nivel de refrigerante es
+                bajo, generalmente indica una fuga en algún punto del sistema.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Mantenimiento regular:</span> Aunque
+                no se consume, el refrigerante puede fugarse lentamente con el
+                tiempo debido a las vibraciones y el envejecimiento de los
+                componentes. Por ello, se recomienda una revisión periódica.
+              </li>
+            </ul>
+          </section>
 
-          <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
           >
-            <a href="./valvulas.html">
-              <img
-                class="rounded-t-lg"
-                src="https://rehisaresortes.mx/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/08/por-que-se-rompen-los-resortes-de-valvulas-de-motor.jpg.webp"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./valvulas.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Válvulas del motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Inspección y ajuste de las válvulas del motor para evitar
-                pérdida de compresión y mejorar el rendimiento del vehículo.
-              </p>
-              <a
-                href="./valvulas.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              2. El Proceso Profesional de Carga de Aire Acondicionado
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >La carga de A/C debe realizarse por técnicos cualificados</span
               >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
+              con el equipo adecuado para asegurar la cantidad correcta de
+              refrigerante y la detección de posibles fugas.
+            </p>
+            <ul class="list-decimal list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700">Diagnóstico inicial:</span> El
+                técnico revisará el funcionamiento del sistema de A/C y buscará
+                signos evidentes de problemas o fugas.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Conexión del equipo de carga:</span>
+                Se conecta una máquina de carga de A/C a los puertos de servicio
+                de alta y baja presión del sistema del automóvil.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Recuperación del refrigerante existente (si es
+                  necesario):</span
                 >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
+                Si el sistema aún contiene refrigerante, la máquina lo
+                recuperará para medir la cantidad presente y evitar la
+                liberación a la atmósfera.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Prueba de vacío:</span> Se realiza
+                una prueba de vacío para eliminar cualquier aire o humedad del
+                sistema y para verificar si hay fugas. Un vacío que no se
+                mantiene indica una fuga.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Carga con la cantidad correcta de refrigerante:</span
+                >
+                La máquina carga el sistema con la cantidad exacta de
+                refrigerante especificada por el fabricante del vehículo. Esta
+                cantidad se mide con precisión en peso.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Verificación del funcionamiento:</span
+                >
+                Una vez cargado, el técnico verifica que el sistema de A/C esté
+                funcionando correctamente, midiendo la temperatura del aire que
+                sale por las rejillas y las presiones del sistema.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Detección de fugas (opcional pero recomendado):</span
+                >
+                Se puede utilizar un detector de fugas electrónico o un tinte UV
+                (visible con una luz especial) para identificar posibles fugas
+                en el sistema.
+              </li>
+            </ul>
+          </section>
+
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+          >
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              3. Señales de que tu Aire Acondicionado Necesita una Carga
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >Varios síntomas pueden indicar que el nivel de refrigerante de
+                tu A/C es bajo.</span
+              >
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Aire que no enfría o enfría débilmente:</span
+                >
+                Este es el síntoma más común. Si el aire que sale por las
+                rejillas no está tan frío como antes, es probable que el nivel
+                de refrigerante sea bajo.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">El compresor no se activa:</span> El
+                compresor es el corazón del sistema de A/C. Si no hay suficiente
+                refrigerante, un interruptor de baja presión puede impedir que
+                el compresor se encienda para protegerlo.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Ruido inusual al encender el A/C:</span
+                >
+                Un nivel bajo de refrigerante puede hacer que el compresor
+                funcione de manera ruidosa o irregular.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Embrague del compresor que se activa y desactiva
+                  rápidamente:</span
+                >
+                Esto puede indicar una presión de refrigerante incorrecta.
+              </li>
+            </ul>
+          </section>
+
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+          >
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              4. Importancia de una Carga Correcta
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >Cargar el sistema de A/C con la cantidad correcta de
+                refrigerante es crucial</span
+              >
+              para su rendimiento y longevidad.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700">Enfriamiento óptimo:</span> La
+                cantidad correcta de refrigerante asegura que el sistema pueda
+                enfriar el aire de manera eficiente.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Protección de los componentes:</span
+                >
+                Un nivel incorrecto de refrigerante puede dañar el compresor y
+                otros componentes del sistema.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Eficiencia energética:</span> Un
+                sistema correctamente cargado funciona de manera más eficiente,
+                lo que puede tener un ligero impacto en el consumo de
+                combustible.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Prevención de daños mayores:</span>
+                Ignorar un nivel bajo de refrigerante y seguir utilizando el A/C
+                puede provocar daños más costosos en el sistema.
+              </li>
+            </ul>
+          </section>
+        </main>
+
+        <aside
+          class="sidebar w-full md:w-1/4 p-6 bg-gray-200 rounded-md shadow-md"
+        >
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">
+            Espacio para Anuncios
+          </h2>
+          <p class="text-lg text-gray-700 mb-4">
+            Este es un espacio reservado para futuros anuncios de Google AdSense
+            u otro contenido promocional relevante para servicios de carga y
+            reparación de aire acondicionado automotriz.
+          </p>
+          <div
+            class="bg-gray-300 h-40 rounded-md mb-4 flex items-center justify-center text-gray-500"
+          >
+            Anuncio 1
           </div>
           <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+            class="bg-gray-300 h-40 rounded-md mb-4 flex items-center justify-center text-gray-500"
           >
-            <a href="./motor.html">
-              <img
-                class="rounded-t-lg"
-                src="https://www.rodesrecambios.es/wp-content/uploads/2022/06/cambiar-motor-coche.png"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./motor.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Cambio de motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Sustitución completa del motor por uno nuevo o reacondicionado.
-                Se realiza cuando el motor sufre daños irreparables.
-              </p>
-              <a
-                href="./motor.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
+            Anuncio 2
           </div>
-          <div
-            class="max-w-sm col-span-3 justify-self-center bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
-          >
-            <a href="./mantenimiento.html">
-              <img
-                class="rounded-t-lg"
-                src="https://repsaautocentro.com/wp-content/uploads/2018/05/18268493_1514541068578857_6685536562013218292_n.jpg"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./mantenimiento.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Mantenimiento del motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Incluye cambio de aceite, revisión de filtros, correas,
-                inyectores y otros componentes esenciales para prolongar la vida
-                útil del motor.
-              </p>
-              <a
-                href="./mantenimiento.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
+        </aside>
       </div>
     </div>
 

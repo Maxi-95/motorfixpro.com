@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Herramientas Recomendadas</title>
     <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .sidebar {
+        width: 25%; /* Ancho de la barra lateral */
+      }
+
+      @media (min-width: 768px) {
+        .main-content {
+          width: 70%; /* Ancho del contenido principal en pantallas medianas y grandes */
+        }
+      }
+    </style>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
@@ -284,197 +295,274 @@
 
     <!-- TARGETAS SUBCATEGORIAS / ITEMS -->
 
-    <div class="p-4 sm:ml-64">
-      <div class="p-4 rounded-lg dark:border-gray-700 mt-14">
-        <h1 class="text-4xl font-bold text-center text-gray-900 my-8">
-          Mecánica
-        </h1>
+    <div class="mt-20 sm:ml-64">
+      <div
+        class="font-sans antialiased text-gray-800 p-6 flex flex-col md:flex-row"
+      >
+        <main class="main-content mb-8 md:mr-8">
+          <header class="mb-8">
+            <h1 class="text-4xl font-bold text-gray-900">
+              Guía sobre Encerado y Protección Cerámica para Autos: Información
+              Detallada
+            </h1>
+            <p class="text-2xl text-gray-700 mt-2">
+              Aprende sobre el encerado y la protección cerámica, dos métodos
+              populares para proteger la pintura de tu auto y realzar su
+              apariencia.
+            </p>
+          </header>
 
-        <div class="grid grid-cols-3 gap-4 justify-items-center">
-          <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
           >
-            <a href="./cambio.html">
-              <img
-                class="rounded-t-lg"
-                src="https://cdn.club-magazin.autodoc.de/uploads/sites/11/2020/11/como-se-alinean-las-ruedas-de-un-coche.jpg"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./cambio.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Cambio de ruedas y alineación
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Revisión del desgaste de neumáticos, cambio de llantas y
-                alineación para evitar problemas de estabilidad y consumo
-                irregular de combustible.
-              </p>
-              <a
-                href="./cambio.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              1. Encerado Automotriz: Brillo y Protección Tradicional
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800">El encerado</span> es un
+              método clásico para proteger la pintura del auto y proporcionarle
+              un brillo profundo y lustroso.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700">Tipos de cera:</span> Las ceras
+                pueden ser naturales (principalmente de carnauba) o sintéticas.
+                Las ceras naturales ofrecen un brillo cálido y profundo,
+                mientras que las sintéticas suelen ser más duraderas.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Beneficios del encerado:</span>
+                <ul class="list-disc list-inside ml-6 text-xl text-gray-500">
+                  <li class="mb-1">
+                    <span class="text-gray-600"
+                      >Brillo y profundidad de color mejorados.</span
+                    >
+                  </li>
+                  <li class="mb-1">
+                    <span class="text-gray-600"
+                      >Protección contra los elementos (rayos UV, lluvia ácida,
+                      contaminación).</span
+                    >
+                  </li>
+                  <li class="mb-1">
+                    <span class="text-gray-600"
+                      >Propiedades hidrofóbicas (repelencia al agua),
+                      facilitando el lavado y el secado.</span
+                    >
+                  </li>
+                  <li class="mb-1">
+                    <span class="text-gray-600"
+                      >Ayuda a prevenir la adherencia de insectos y
+                      suciedad.</span
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Aplicación:</span> La cera se aplica
+                sobre una superficie limpia y seca, utilizando un aplicador de
+                espuma o microfibra, en capas delgadas y uniformes. Se deja
+                curar (haze) según las instrucciones del producto y luego se
+                retira con una toalla de microfibra limpia.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Durabilidad:</span> La durabilidad
+                de la cera varía según el tipo y las condiciones ambientales,
+                generalmente oscilando entre unas pocas semanas y varios meses.
+              </li>
+            </ul>
+          </section>
 
-          <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
           >
-            <a href="./valvulas.html">
-              <img
-                class="rounded-t-lg"
-                src="https://rehisaresortes.mx/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/08/por-que-se-rompen-los-resortes-de-valvulas-de-motor.jpg.webp"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./valvulas.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Válvulas del motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Inspección y ajuste de las válvulas del motor para evitar
-                pérdida de compresión y mejorar el rendimiento del vehículo.
-              </p>
-              <a
-                href="./valvulas.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              2. Protección Cerámica: Durabilidad y Resistencia Superior
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >La protección cerámica (o coating cerámico)</span
               >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
+              es un recubrimiento líquido polimérico que se adhiere químicamente
+              a la pintura del auto, creando una capa protectora duradera y
+              resistente.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700">Composición:</span> Los coatings
+                cerámicos están compuestos principalmente por dióxido de silicio
+                (SiO2), el mismo material que se encuentra en el cuarzo y el
+                vidrio. También pueden contener otros polímeros y aditivos para
+                mejorar sus propiedades.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Beneficios de la protección cerámica:</span
                 >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
+                <ul class="list-disc list-inside ml-6 text-xl text-gray-500">
+                  <li class="mb-1">
+                    <span class="text-gray-600">Durabilidad extrema:</span>
+                    Puede durar varios años, ofreciendo una protección a largo
+                    plazo.
+                  </li>
+                  <li class="mb-1">
+                    <span class="text-gray-600"
+                      >Mayor resistencia a arañazos leves (swirl marks),
+                      productos químicos, excrementos de aves, savia de árboles
+                      y rayos UV.</span
+                    >
+                  </li>
+                  <li class="mb-1">
+                    <span class="text-gray-600"
+                      >Excelentes propiedades hidrofóbicas:</span
+                    >
+                    El agua y la suciedad resbalan fácilmente de la superficie,
+                    facilitando enormemente el lavado y el mantenimiento.
+                  </li>
+                  <li class="mb-1">
+                    <span class="text-gray-600"
+                      >Brillo intenso y profundo:</span
+                    >
+                    Realza la apariencia de la pintura.
+                  </li>
+                  <li class="mb-1">
+                    <span class="text-gray-600">Facilita la limpieza:</span> La
+                    suciedad no se adhiere con tanta facilidad, haciendo que el
+                    lavado sea más rápido y sencillo.
+                  </li>
+                </ul>
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Aplicación:</span> La aplicación de
+                un coating cerámico requiere una preparación meticulosa de la
+                superficie, que incluye un lavado profundo, descontaminación
+                (clay bar) y, a menudo, un pulido para eliminar imperfecciones.
+                El coating se aplica panel por panel y se nivela cuidadosamente
+                antes de curar. Generalmente, se recomienda que la aplicación la
+                realice un profesional.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Mantenimiento:</span> Aunque es más
+                resistente, un coating cerámico requiere un mantenimiento
+                adecuado, que incluye lavados regulares con pH neutro y la
+                aplicación periódica de un "topper" o spray de mantenimiento
+                cerámico para prolongar sus propiedades hidrofóbicas.
+              </li>
+            </ul>
+          </section>
+
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+          >
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              3. Encerado vs. Protección Cerámica: Comparativa
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              La elección entre encerado y protección cerámica depende de las
+              necesidades y prioridades del propietario del vehículo.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700">Durabilidad:</span> La protección
+                cerámica ofrece una durabilidad significativamente mayor que la
+                cera.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Resistencia:</span> La cerámica
+                proporciona una mayor resistencia a los arañazos leves, químicos
+                y contaminantes.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Brillo:</span> Ambas opciones pueden
+                proporcionar un excelente brillo, aunque algunos consideran que
+                la cera natural ofrece un brillo más cálido.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Costo:</span> El encerado es
+                generalmente más económico en términos de producto y aplicación
+                (se puede hacer en casa). La protección cerámica es más costosa
+                debido al producto y la mano de obra especializada.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Facilidad de aplicación:</span> El
+                encerado es más fácil de aplicar por un aficionado, mientras que
+                la cerámica requiere más experiencia y cuidado.
+              </li>
+            </ul>
+          </section>
+
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+          >
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              4. Preparación de la Superficie para Encerado o Protección
+              Cerámica
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >Una preparación adecuada de la superficie</span
+              >
+              es fundamental para asegurar la correcta adherencia y el máximo
+              rendimiento tanto de la cera como de la protección cerámica.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700">Lavado a fondo:</span> Eliminar toda
+                la suciedad y los contaminantes de la superficie.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Descontaminación química:</span>
+                Utilizar productos para remover alquitrán, savia de árboles y
+                otros residuos incrustados.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Descontaminación mecánica (clay bar):</span
+                >
+                Eliminar las partículas contaminantes que están adheridas a la
+                pintura y no se eliminan con el lavado.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Pulido (opcional pero recomendado para cerámica):</span
+                >
+                Corregir imperfecciones como remolinos, arañazos y oxidación
+                para obtener una superficie lisa y brillante que maximice el
+                resultado final.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Limpieza con IPA (alcohol isopropílico):</span
+                >
+                Eliminar cualquier residuo de pulimento o aceites para asegurar
+                una adherencia óptima de la cera o el coating cerámico.
+              </li>
+            </ul>
+          </section>
+        </main>
+
+        <aside
+          class="sidebar w-full md:w-1/4 p-6 bg-gray-200 rounded-md shadow-md"
+        >
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">
+            Espacio para Anuncios
+          </h2>
+          <p class="text-lg text-gray-700 mb-4">
+            Este es un espacio reservado para futuros anuncios de Google AdSense
+            u otro contenido promocional relevante para productos y servicios de
+            encerado y protección cerámica para autos.
+          </p>
+          <div
+            class="bg-gray-300 h-40 rounded-md mb-4 flex items-center justify-center text-gray-500"
+          >
+            Anuncio 1
           </div>
           <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+            class="bg-gray-300 h-40 rounded-md mb-4 flex items-center justify-center text-gray-500"
           >
-            <a href="./motor.html">
-              <img
-                class="rounded-t-lg"
-                src="https://www.rodesrecambios.es/wp-content/uploads/2022/06/cambiar-motor-coche.png"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./motor.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Cambio de motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Sustitución completa del motor por uno nuevo o reacondicionado.
-                Se realiza cuando el motor sufre daños irreparables.
-              </p>
-              <a
-                href="./motor.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
+            Anuncio 2
           </div>
-          <div
-            class="max-w-sm col-span-3 justify-self-center bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
-          >
-            <a href="./mantenimiento.html">
-              <img
-                class="rounded-t-lg"
-                src="https://repsaautocentro.com/wp-content/uploads/2018/05/18268493_1514541068578857_6685536562013218292_n.jpg"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./mantenimiento.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Mantenimiento del motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Incluye cambio de aceite, revisión de filtros, correas,
-                inyectores y otros componentes esenciales para prolongar la vida
-                útil del motor.
-              </p>
-              <a
-                href="./mantenimiento.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
+        </aside>
       </div>
     </div>
 

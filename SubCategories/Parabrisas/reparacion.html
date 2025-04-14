@@ -4,6 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Herramientas Recomendadas</title>
+    <style>
+      .sidebar {
+        width: 25%; /* Ancho de la barra lateral */
+      }
+
+      @media (min-width: 768px) {
+        .main-content {
+          width: 70%; /* Ancho del contenido principal en pantallas medianas y grandes */
+        }
+      }
+    </style>
     <link rel="stylesheet" href="css/style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
@@ -284,197 +295,299 @@
 
     <!-- TARGETAS SUBCATEGORIAS / ITEMS -->
 
-    <div class="p-4 sm:ml-64">
-      <div class="p-4 rounded-lg dark:border-gray-700 mt-14">
-        <h1 class="text-4xl font-bold text-center text-gray-900 my-8">
-          Mecánica
-        </h1>
+    <
+    <div class="mt-20 sm:ml-64">
+      <div
+        class="font-sans antialiased text-gray-800 p-6 flex flex-col md:flex-row"
+      >
+        <main class="main-content mb-8 md:mr-8">
+          <header class="mb-8">
+            <h1 class="text-4xl font-bold text-gray-900">
+              Guía sobre la Reparación de Impactos en Parabrisas: Información
+              Detallada
+            </h1>
+            <p class="text-2xl text-gray-700 mt-2">
+              Descubre el proceso, los beneficios y las consideraciones clave
+              para la reparación de pequeños impactos en el parabrisas de tu
+              automóvil.
+            </p>
+          </header>
 
-        <div class="grid grid-cols-3 gap-4 justify-items-center">
-          <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
           >
-            <a href="./cambio.html">
-              <img
-                class="rounded-t-lg"
-                src="https://cdn.club-magazin.autodoc.de/uploads/sites/11/2020/11/como-se-alinean-las-ruedas-de-un-coche.jpg"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./cambio.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Cambio de ruedas y alineación
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Revisión del desgaste de neumáticos, cambio de llantas y
-                alineación para evitar problemas de estabilidad y consumo
-                irregular de combustible.
-              </p>
-              <a
-                href="./cambio.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              1. ¿Qué Tipos de Impactos en Parabrisas se Pueden Reparar?
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >No todos los daños en un parabrisas son reparables.</span
               >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
+              La viabilidad de la reparación depende del tamaño, tipo y
+              ubicación del impacto.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700">Tamaño:</span> Generalmente, los
+                impactos que tienen un diámetro menor a una pulgada
+                (aproximadamente 2.5 cm) suelen ser reparables. Algunos técnicos
+                pueden reparar daños ligeramente mayores.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Tipo:</span> Los tipos comunes de
+                impactos reparables incluyen:
+                <ul class="list-disc list-inside ml-6 text-xl text-gray-500">
+                  <li class="mb-1">
+                    <span class="text-gray-600">Ojo de buey (bullseye):</span>
+                    Un impacto circular con un pequeño cono en el centro.
+                  </li>
+                  <li class="mb-1">
+                    <span class="text-gray-600">Estrella (star break):</span> Un
+                    punto de impacto con varias grietas cortas que irradian
+                    hacia afuera.
+                  </li>
+                  <li class="mb-1">
+                    <span class="text-gray-600">Media luna (half-moon):</span>
+                    Un impacto semicircular.
+                  </li>
+                  <li class="mb-1">
+                    <span class="text-gray-600"
+                      >Combinación (combination break):</span
+                    >
+                    Una mezcla de varios tipos de roturas.
+                  </li>
+                </ul>
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Ubicación:</span> Los impactos que
+                están directamente en la línea de visión del conductor pueden no
+                ser reparables, ya que la reparación podría causar una
+                distorsión que afecte la visión. Los impactos cerca del borde
+                del parabrisas también pueden ser más propensos a extenderse y,
+                por lo tanto, menos reparables.
+              </li>
+            </ul>
+          </section>
 
-          <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
           >
-            <a href="./valvulas.html">
-              <img
-                class="rounded-t-lg"
-                src="https://rehisaresortes.mx/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/08/por-que-se-rompen-los-resortes-de-valvulas-de-motor.jpg.webp"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./valvulas.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Válvulas del motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Inspección y ajuste de las válvulas del motor para evitar
-                pérdida de compresión y mejorar el rendimiento del vehículo.
-              </p>
-              <a
-                href="./valvulas.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              2. Beneficios de la Reparación de Impactos en Parabrisas
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >Reparar un impacto pequeño en el parabrisas</span
               >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
+              ofrece varias ventajas significativas.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Prevención de la propagación de la grieta:</span
                 >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
+                Un pequeño impacto puede convertirse rápidamente en una grieta
+                grande, especialmente con cambios de temperatura o vibraciones
+                del vehículo. La reparación sella el daño y evita que se
+                extienda.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Mantiene la integridad estructural del parabrisas:</span
+                >
+                El parabrisas forma parte de la estructura de seguridad del
+                vehículo. Una reparación ayuda a mantener su resistencia en caso
+                de accidente.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Mejora la claridad visual:</span> La
+                reparación elimina la distorsión causada por el impacto,
+                mejorando la visibilidad del conductor.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Ahorro económico:</span> La
+                reparación es significativamente más barata que el reemplazo
+                completo del parabrisas.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Ahorro de tiempo:</span> La
+                reparación suele llevar menos de una hora, mientras que el
+                reemplazo puede tomar varias horas.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Conservación del parabrisas original:</span
+                >
+                El parabrisas original de fábrica a menudo tiene un mejor ajuste
+                y calidad que un reemplazo.
+              </li>
+            </ul>
+          </section>
+
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+          >
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              3. El Proceso Típico de Reparación de Impactos
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >Los técnicos profesionales utilizan un proceso específico</span
+              >
+              para reparar los impactos en los parabrisas.
+            </p>
+            <ul class="list-decimal list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700">Limpieza del área dañada:</span> Se
+                limpia cuidadosamente el impacto para eliminar cualquier
+                suciedad, residuos o fragmentos de vidrio sueltos.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Colocación del puente de reparación:</span
+                >
+                Se instala un dispositivo especial (puente de reparación) sobre
+                el área dañada. Este dispositivo crea un vacío y luego aplica
+                presión para inyectar la resina.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Inyección de resina:</span> Se
+                inyecta una resina líquida transparente de alta calidad en el
+                impacto a través del puente. El vacío ayuda a que la resina
+                penetre en todas las grietas.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Curado de la resina:</span> Se
+                utiliza una luz ultravioleta (UV) para curar y endurecer la
+                resina. Este proceso suele tomar unos minutos.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Retirada del puente y acabado:</span
+                >
+                Una vez que la resina está curada, se retira el puente. Se puede
+                aplicar una pequeña cantidad de resina adicional para rellenar
+                cualquier imperfección superficial.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Pulido final:</span> Se pule
+                suavemente el área reparada para dejar una superficie lisa y
+                clara.
+              </li>
+            </ul>
+          </section>
+
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+          >
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              4. Consideraciones Importantes Después de un Impacto
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >Actuar rápidamente después de que ocurra un impacto</span
+              >
+              puede aumentar las posibilidades de una reparación exitosa.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700">Cubrir el impacto:</span> Utilizar
+                una cinta adhesiva transparente para cubrir el impacto lo antes
+                posible. Esto ayuda a evitar que entre suciedad y humedad, lo
+                que podría dificultar la reparación y hacer que la grieta se
+                extienda.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Evitar cambios bruscos de temperatura:</span
+                >
+                Las fluctuaciones extremas de temperatura pueden hacer que la
+                grieta se propague.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >No lavar el parabrisas inmediatamente:</span
+                >
+                La humedad puede interferir con el proceso de reparación.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Buscar un servicio de reparación profesional lo antes
+                  posible.</span
+                >
+              </li>
+            </ul>
+          </section>
+
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+          >
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              5. ¿Cuándo es Necesario Reemplazar el Parabrisas?
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >En algunos casos, la reparación no es una opción viable</span
+              >
+              y se requiere el reemplazo completo del parabrisas.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700">Impactos grandes:</span> Daños
+                mayores a una pulgada de diámetro.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Grietas largas:</span> Grietas que
+                se han extendido más de lo que se considera seguro para reparar
+                (generalmente varias pulgadas).
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Múltiples impactos:</span> Varios
+                impactos cercanos pueden comprometer la integridad del
+                parabrisas.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Impactos en el borde:</span> Daños
+                muy cerca del borde del parabrisas, ya que esta área es
+                estructuralmente más débil.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Daños en la capa interior:</span> Si
+                el impacto ha penetrado la capa interior del vidrio laminado.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Obstrucción de la visión del conductor:</span
+                >
+                Impactos directamente en la línea de visión que no se pueden
+                reparar sin causar distorsión.
+              </li>
+            </ul>
+          </section>
+        </main>
+
+        <aside
+          class="sidebar w-full md:w-1/4 p-6 bg-gray-200 rounded-md shadow-md"
+        >
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">
+            Espacio para Anuncios
+          </h2>
+          <p class="text-lg text-gray-700 mb-4">
+            Este es un espacio reservado para futuros anuncios de Google AdSense
+            u otro contenido promocional relevante para servicios de reparación
+            y reemplazo de parabrisas automotrices.
+          </p>
+          <div
+            class="bg-gray-300 h-40 rounded-md mb-4 flex items-center justify-center text-gray-500"
+          >
+            Anuncio 1
           </div>
           <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+            class="bg-gray-300 h-40 rounded-md mb-4 flex items-center justify-center text-gray-500"
           >
-            <a href="./motor.html">
-              <img
-                class="rounded-t-lg"
-                src="https://www.rodesrecambios.es/wp-content/uploads/2022/06/cambiar-motor-coche.png"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./motor.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Cambio de motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Sustitución completa del motor por uno nuevo o reacondicionado.
-                Se realiza cuando el motor sufre daños irreparables.
-              </p>
-              <a
-                href="./motor.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
+            Anuncio 2
           </div>
-          <div
-            class="max-w-sm col-span-3 justify-self-center bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
-          >
-            <a href="./mantenimiento.html">
-              <img
-                class="rounded-t-lg"
-                src="https://repsaautocentro.com/wp-content/uploads/2018/05/18268493_1514541068578857_6685536562013218292_n.jpg"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./mantenimiento.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Mantenimiento del motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Incluye cambio de aceite, revisión de filtros, correas,
-                inyectores y otros componentes esenciales para prolongar la vida
-                útil del motor.
-              </p>
-              <a
-                href="./mantenimiento.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
+        </aside>
       </div>
     </div>
 

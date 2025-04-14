@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Herramientas Recomendadas</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- BARRA DE NAVEGADOR -->
+
+    <nav
+      class="fixed top-0 z-50 w-full bg-white border-b border-gray-200 dark:bg-gray-900 dark:border-gray-700"
+    >
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img
+            src="https://flowbite.com/docs/images/logo.svg"
+            class="h-8"
+            alt="Flowbite Logo"
+          />
+          <span
+            class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+            >Motorfixpro</span
+          >
+        </a>
+
+        <!-- Botón Hamburguesa -->
+        <button
+          id="menu-btn"
+          type="button"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        >
+          <span class="sr-only">Open main menu</span>
+          <svg
+            class="w-5 h-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
+        </button>
+
+        <!-- Menú de navegación -->
+        <div id="navbar-dropdown" class="hidden w-full md:block md:w-auto">
+          <ul
+            class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+          >
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="../../guides.html"
+                class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Guias</a
+              >
+            </li>
+            <li>
+              <a
+                href="../../tools.html"
+                class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Herramientas</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <aside
+      id="logo-sidebar"
+      class="fixed top-0 left-0 z-40 w-64 h-screen pt-20 transition-transform -translate-x-full bg-white border-r border-gray-200 sm:translate-x-0 dark:bg-gray-800 dark:border-gray-700"
+      aria-label="Sidebar"
+    >
+      <div class="h-full px-3 pb-4 overflow-y-auto bg-white dark:bg-gray-800">
+        <ul class="space-y-2 font-medium">
+          <li>
+            <a
+              href="../ChapayPintura/index.html"
+              class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+            >
+              <span class="flex-1 ms-3 whitespace-nowrap">Chapa y Pintura</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="../Mecanica/mecanica.html"
+              class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+            >
+          
+              <span class="flex-1 ms-3 whitespace-nowrap">Mecanica</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="../Electricidad/index.html"
+              class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+            >
+        
+              <span class="flex-1 ms-3 whitespace-nowrap"
+                >Electricidad y Electronica</span
+              >
+            </a>
+          </li>
+          <li>
+            <a
+              href="../Detailng/index.html"
+              class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+            >
+           
+              <span class="flex-1 ms-3 whitespace-nowrap"
+                >Detailing y Estética del Auto</span
+              >
+            </a>
+          </li>
+          <li>
+            <a
+              href="../Parabrisas/index.html"
+              class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+            >
+           
+              <span class="flex-1 ms-3 whitespace-nowrap"
+                >Parabrisas y Cristales</span
+              >
+            </a>
+          </li>
+          <li>
+            <a
+              href="../Climatizacion/index.html"
+              class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+            >
+     
+              <span class="flex-1 ms-3 whitespace-nowrap">Climatización </span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="../Frenos/index.html"
+              class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+            >
+      
+              <span class="flex-1 ms-3 whitespace-nowrap"
+                >Sistema de Frenos</span
+              >
+            </a>
+          </li>
+          <li>
+            <a
+              href="../Transmision/index.html"
+              class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+            >
+   
+              <span class="flex-1 ms-3 whitespace-nowrap"
+                >Transmisión y Cambios</span
+              >
+            </a>
+          </li>
+          <li>
+            <a
+              href="../Escape/index.html"
+              class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+            >
+          
+              <span class="flex-1 ms-3 whitespace-nowrap"
+                >Stm. de Escape y Emisiones</span
+              >
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <header class="text-center my-10 pt-20">
+        <h1 class="text-5xl font-bold">Preparación de la Superficie</h1>
+        <p class="text-2xl text-gray-600 mt-2">Paso esencial antes de aplicar pintura sobre la carrocería del vehículo.</p>
+    </header>
+    
+    <!-- Contenido principal -->
+    <main class="max-w-4xl mx-auto px-4 space-y-10">
+        
+        <!-- Párrafo 1 -->
+        <section>
+            <h1 class="text-4xl font-bold ">Limpieza Inicial</h1>
+            <h2 class="text-3xl font-bold mt-5">Lavado:</h2>
+            <p class="text-2xl ">Eliminar suciedad superficial, polvo, grasa, insectos y cualquier contaminante. Se utilizan agua, jabón específico para autos y esponjas o paños suaves.</p>
+            <h2 class="text-3xl font-bold mt-5">Desengrasante:</h2>
+            <p class="text-2xl "> Eliminar residuos de aceite, cera, silicona o cualquier otro producto que pueda impedir la adherencia de los materiales posteriores. Se utilizan desengrasantes específicos.</p>
+           
+        </section>
+  
+        <!-- Imagen 1 -->
+        <section>
+          <img src="https://clubdelpintoraxalta.com/wp-content/uploads/2022/10/lijas-para-repintado-automotriz-c-min.jpg" alt="Lijado de superficie de auto" class="rounded-lg shadow-md mx-auto w-full md:w-2/3" />
+          <h1 class="text-4xl font-bold mt-10">Evaluación y Reparación de Daños</h1>
+          <h2 class="text-3xl font-bold mt-5">Inspección: </h2>
+          <p class="text-2xl ">Eliminar suciedad superficial, polvo, grasa, insectos y cualquier contaminante. Se utilizan agua, jabón específico para autos y esponjas o paños suaves.</p>
+          <h2 class="text-3xl font-bold mt-5">Desabollado:</h2>
+          <p class="text-2xl ">  Reparar las abolladuras utilizando diversas técnicas (palancas, ventosas, martillos de inercia, etc.).</p>
+                 
+          <h2 class="text-3xl font-bold mt-5">Eliminación de Óxido:</h2>
+          <p class="text-2xl ">Lijar, cepillar con alambre o utilizar removedores químicos para eliminar completamente el óxido. Es crucial detener su avance.</p>
+                 
+          <h2 class="text-3xl font-bold mt-5">Remoción de Pintura Vieja:</h2>
+          <p class="text-2xl ">Si la pintura está en mal estado (desconchada, agrietada), se puede remover mediante lijado, decapantes químicos o arenado (sandblasting).</p>                 
+          
+        </section>
+        
+        <!-- Párrafo 2 -->
+        <section>
+            <h1 class="text-4xl font-bold mt-10">Masillado (Empastado)</h1>
+            <h2 class="text-3xl font-bold mt-5">Aplicación de Masilla:</h2>
+            <p class="text-2xl ">Rellenar abolladuras superficiales, imperfecciones y uniones con masilla automotriz (de poliéster, epoxi, etc.). Se aplica en capas finas y se deja secar completamente.</p>
+            <h2 class="text-3xl font-bold mt-5">Lijado de la Masilla:</h2>
+            <p class="text-2xl ">Una vez seca, se lija la masilla con diferentes granos de lija (grueso a fino) para igualar la superficie con el resto de la carrocería y darle la forma deseada. Es crucial lograr una transición suave.</p>
+        </section>
+        
+        <!-- Imagen 2 -->
+        <section class="text-center">
+            <img src="https://cdn2.hubspot.net/hubfs/500845/Im%C3%A1genes_Post/Febrero_2016/Masilla_fibra_de_vidrio..jpg" alt="Aplicación de masilla sobre superficie metálica" class="rounded-lg shadow-md mx-auto w-full md:w-3/3" />
+            <p class="text-sm text-gray-500 mt-2">Imagen: Aplicación de masilla en áreas dañadas.</p>
+        </section>
+        
+        <!-- Párrafo 3 -->
+        <section class="my-10">
+            <div class="w-full h-32 bg-gray-200 flex items-center justify-center">
+                <!-- Aquí iría el código de tu banner de Google AdSense -->
+                <span class="text-gray-500">Espacio reservado para publicidad</span>
+            </div>
+        </section>
+        <!-- Párrafo 4 -->
+        <section>
+            <h1 class="text-4xl font-bold mt-10">Imprimación (Primer)</h1>
+            <h2 class="text-3xl font-bold mt-5">Aplicación de Imprimación:</h2>
+            <p class="text-2xl ">Se aplica una o varias capas de imprimación (aparejo) sobre la superficie lijada y masillada.</p>
+            <h2 class="text-3xl font-bold mt-5">Objetivos de la Imprimación:</h2>
+            <ul>
+                <li>
+                    <h1 class="text-3xl font-bold mt-5">
+                        Promover la Adherencia:
+                    </h1>
+                    <p class="text-2xl ">Crea una superficie óptima para que la pintura final se adhiera correctamente.</p>
+                    <h1 class="text-3xl font-bold mt-5">
+                        Rellenar Micro-poros:
+                    </h1>
+                    <p class="text-2xl ">Sella pequeñas imperfecciones que puedan haber quedado después del lijado de la masilla.</p>
+                    <h1 class="text-3xl font-bold mt-5">
+                        Uniformar el Color de Fondo:
+                    </h1>
+                    <p class="text-2xl ">Asegura un color base uniforme para la aplicación de la pintura, lo que influye en el tono final.</p>
+                    <h1 class="text-3xl font-bold mt-5">
+                        Protección Anticorrosiva (en algunos tipos):
+                    </h1>
+                    <p class="text-2xl ">Algunas imprimaciones contienen aditivos para prevenir la aparición de óxido.</p>
+                    
+                </li>
+            </ul>
+            <h2 class="text-3xl font-bold mt-5">Tipos de Imprimación: </h2>
+            <p class="text-2xl ">Epoxi, poliuretano, acrílica, fosfatizante (wash primer). La elección depende del tipo de superficie y la pintura a aplicar.</p>
+        </section>
+        
+        <!-- Párrafo 5 -->
+        <section>
+            <img src="https://rsprorefinish.es/wp-content/uploads/2023/11/lijado.png" />
+            <p class="text-sm text-gray-500 mt-2">Imagen: Lijado del primer.</p>
+            <h1 class="text-4xl font-bold mt-10">Lijado de la Imprimación:</h1>
+            <h2 class="text-3xl font-bold mt-5">Lijado Fino:</h2>
+            <p class="text-2xl ">Una vez seca la imprimación, se lija suavemente con lijas de grano fino (ej. P400, P600) para eliminar cualquier imperfección, piel de naranja o mota de polvo que haya quedado.</p>
+            <h2 class="text-3xl font-bold mt-5">Preparación para la Pintura:</h2>
+            <p class="text-2xl ">El objetivo es obtener una superficie perfectamente lisa y uniforme lista para recibir la capa de color.</p>
+        </section>
+        
+        <!-- Párrafo 6 -->
+        <section>
+            <h1 class="text-4xl font-bold mt-10">Limpieza Final:</h1>
+            <h2 class="text-3xl font-bold mt-5">Desengrasado Final:</h2>
+            <p class="text-2xl ">Antes de pintar, se realiza una última limpieza con un desengrasante antiestático para eliminar cualquier residuo de lijado, huellas dactilares o polvo.</p>
+            <h2 class="text-3xl font-bold mt-5">Soplado:</h2>
+            <p class="text-2xl ">Se utiliza aire comprimido para eliminar cualquier partícula suelta.</p>
+            <h2 class="text-3xl font-bold mt-5">Paño Atrapa Polvo (Tack Cloth):</h2>
+            <p class="text-2xl ">Se pasa suavemente un paño pegajoso para asegurar una superficie libre de polvo justo antes de la aplicación de la pintura.</p>
+        </section>
+        <!-- Herramientas y productos recomendados -->
+        <section class="mt-10">
+            <h2 class="text-4xl font-semibold mb-4">🛠️ Herramientas y productos necesarios</h2>
+            <ul class="list-disc list-inside space-y-2 text-2xl">
+                <li>Lijas para metal (grano 80, 120, 220)</li>
+                <li>Desengrasante automotriz</li>
+                <li>Masilla plástica para carrocería</li>
+                <li>Espátula de aplicación</li>
+                <li>Imprimación o primer automotriz</li>
+                <li>Pistola de aire o compresor</li>
+                <li>Paños de microfibra</li>
+            </ul>
+            <p class="text-2xl mt-10">En resumen, la preparación de la superficie es un proceso meticuloso pero esencial. Una buena preparación garantiza una adherencia óptima de la pintura, un acabado liso y uniforme, y una mayor durabilidad del trabajo final. ¡Es la base para un excelente trabajo de chapa y pintura!</p>
+        </section>
+        
+        <!-- Espacio para AdSense -->
+        <section class="my-10">
+            <div class="w-full mb-20 h-32 bg-gray-200 flex items-center justify-center">
+                <!-- Aquí iría el código de tu banner de Google AdSense -->
+                <span class="text-gray-500">Espacio reservado para publicidad</span>
+            </div>
+        </section>
+      </main>
+    
+      </div>
+    </div>
+
+    <footer class="bg-gray-900 text-white py-7">
+      <!-- Línea final -->
+      <div
+        class="mt-8 border-t border-gray-700 pt-4 text-center text-xl text-gray-500"
+      >
+        © 2025 MotorfixPro. Todos los derechos reservados.
+      </div>
+    </footer>
+  </body>
+</html>

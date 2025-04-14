@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Herramientas Recomendadas</title>
     <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .sidebar {
+        width: 25%; /* Ancho de la barra lateral */
+      }
+
+      @media (min-width: 768px) {
+        .main-content {
+          width: 70%; /* Ancho del contenido principal en pantallas medianas y grandes */
+        }
+      }
+    </style>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
@@ -284,197 +295,313 @@
 
     <!-- TARGETAS SUBCATEGORIAS / ITEMS -->
 
-    <div class="p-4 sm:ml-64">
-      <div class="p-4 rounded-lg dark:border-gray-700 mt-14">
-        <h1 class="text-4xl font-bold text-center text-gray-900 my-8">
-          Mecánica
-        </h1>
+    <div class="mt-20 sm:ml-64">
+      <div
+        class="font-sans antialiased text-gray-800 p-6 flex flex-col md:flex-row"
+      >
+        <main class="main-content mb-8 md:mr-8">
+          <header class="mb-8">
+            <h1 class="text-4xl font-bold text-gray-900">
+              Guía Completa sobre el Mantenimiento del Motor de Auto: Claves
+              para su Durabilidad
+            </h1>
+            <p class="text-2xl text-gray-700 mt-2">
+              Aprende cómo mantener el motor de tu coche en óptimas condiciones
+              para asegurar su rendimiento y prolongar su vida útil.
+            </p>
+          </header>
 
-        <div class="grid grid-cols-3 gap-4 justify-items-center">
-          <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
           >
-            <a href="./cambio.html">
-              <img
-                class="rounded-t-lg"
-                src="https://cdn.club-magazin.autodoc.de/uploads/sites/11/2020/11/como-se-alinean-las-ruedas-de-un-coche.jpg"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./cambio.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Cambio de ruedas y alineación
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Revisión del desgaste de neumáticos, cambio de llantas y
-                alineación para evitar problemas de estabilidad y consumo
-                irregular de combustible.
-              </p>
-              <a
-                href="./cambio.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              1. La Importancia del Mantenimiento Regular del Motor
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >El mantenimiento regular del motor</span
               >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
+              es fundamental para prevenir averías costosas, asegurar un
+              funcionamiento eficiente y mantener el valor de tu vehículo.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Prevención de fallos graves:</span
                 >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
+                Identificar y corregir problemas menores antes de que se
+                conviertan en fallas mayores.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Optimización del rendimiento:</span
+                >
+                Un motor bien mantenido funciona de manera más suave y
+                eficiente.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Mayor vida útil del motor:</span
+                >
+                El mantenimiento adecuado puede extender significativamente la
+                vida de tu motor.
+              </li>
+            </ul>
+          </section>
 
-          <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
           >
-            <a href="./valvulas.html">
-              <img
-                class="rounded-t-lg"
-                src="https://rehisaresortes.mx/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/08/por-que-se-rompen-los-resortes-de-valvulas-de-motor.jpg.webp"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./valvulas.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Válvulas del motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Inspección y ajuste de las válvulas del motor para evitar
-                pérdida de compresión y mejorar el rendimiento del vehículo.
-              </p>
-              <a
-                href="./valvulas.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              2. Cambios de Aceite y Filtro: La Base del Mantenimiento
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >El cambio regular de aceite y filtro</span
               >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
+              es la tarea de mantenimiento más importante para el motor.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Lubricación adecuada:</span
                 >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
+                El aceite reduce la fricción entre las partes móviles del motor.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Eliminación de contaminantes:</span
+                >
+                El filtro de aceite atrapa partículas y residuos.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Intervalos de cambio:</span
+                >
+                Seguir las recomendaciones del fabricante para el tipo de aceite
+                y los kilómetros o tiempo entre cambios.
+              </li>
+            </ul>
+          </section>
+
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+          >
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              3. Revisión y Reemplazo de Filtros de Aire y Combustible
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              Los filtros de aire y combustible juegan un papel crucial en el
+              rendimiento y la eficiencia del motor.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold">Filtro de aire:</span>
+                Asegura que el motor reciba aire limpio para la combustión. Un
+                filtro sucio restringe el flujo de aire.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Filtro de combustible:</span
+                >
+                Evita que impurezas del combustible lleguen al motor y dañen los
+                inyectores.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Inspección y reemplazo:</span
+                >
+                Revisar periódicamente y reemplazar según las recomendaciones
+                del fabricante.
+              </li>
+            </ul>
+            <p class="text-2xl leading-relaxed my-4">
+              Un
+              <span class="font-semibold text-gray-800"
+                >filtro de aire limpio</span
+              >
+              permite que el motor "respire" correctamente, optimizando la
+              mezcla aire-combustible para una combustión eficiente.
+            </p>
+            <img
+              src="https://via.placeholder.com/400x300/ccddcc/556b2f?Text=Filtro+de+Aire+Limpio"
+              alt="Filtro de Aire Limpio"
+              class="mx-auto block rounded-md shadow-md mb-4"
+            />
+
+            <p class="text-2xl leading-relaxed my-4">
+              Un
+              <span class="font-semibold text-gray-800"
+                >filtro de combustible nuevo</span
+              >
+              asegura un suministro constante de combustible limpio a los
+              inyectores, evitando obstrucciones y fallos en el motor.
+            </p>
+            <img
+              src="https://via.placeholder.com/400x300/f0e68c/8b4513?Text=Filtro+de+Combustible+Nuevo"
+              alt="Filtro de Combustible Nuevo"
+              class="mx-auto block rounded-md shadow-md mb-4"
+            />
+          </section>
+
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+          >
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              4. Mantenimiento del Sistema de Refrigeración
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              El sistema de refrigeración es vital para evitar el
+              sobrecalentamiento del motor.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Nivel de refrigerante:</span
+                >
+                Verificar regularmente y rellenar si es necesario.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Purgado del sistema:</span
+                >
+                Eliminar burbujas de aire que pueden causar sobrecalentamiento.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Reemplazo del refrigerante:</span
+                >
+                Seguir los intervalos recomendados para evitar la corrosión y la
+                pérdida de propiedades.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Inspección de mangueras y abrazaderas:</span
+                >
+                Buscar fugas o signos de desgaste.
+              </li>
+            </ul>
+          </section>
+
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+          >
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              5. Cuidado del Sistema de Encendido
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              Un sistema de encendido en buen estado asegura una combustión
+              eficiente.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold">Bujías:</span>
+                Inspeccionar y reemplazar según el manual del propietario.
+                Bujías desgastadas pueden causar fallos de encendido y pérdida
+                de potencia.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Cables de bujías (en sistemas más antiguos):</span
+                >
+                Verificar su estado y resistencia.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Bobinas de encendido:</span
+                >
+                Si se sospecha un fallo, deben ser revisadas por un profesional.
+              </li>
+            </ul>
+          </section>
+
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+          >
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              6. Inspección de Correas y Mangueras
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              Las correas y mangueras son componentes críticos que deben
+              revisarse regularmente.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Correas (distribución, serpentina):</span
+                >
+                Buscar grietas, desgaste o tensión incorrecta. El fallo de la
+                correa de distribución puede causar daños graves al motor.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Mangueras (refrigerante, vacío):</span
+                >
+                Buscar hinchazón, fugas o signos de deterioro.
+              </li>
+            </ul>
+          </section>
+
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+          >
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              7. Monitoreo de Fluidos y Niveles
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              Verificar regularmente los niveles de todos los fluidos del motor
+              es una práctica sencilla pero importante.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Aceite de motor.</span
+                >
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold">Refrigerante.</span>
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Líquido de frenos.</span
+                >
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Líquido de dirección asistida.</span
+                >
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Líquido de transmisión (si aplica).</span
+                >
+              </li>
+            </ul>
+          </section>
+        </main>
+
+        <aside
+          class="sidebar w-full md:w-1/4 p-6 bg-gray-200 rounded-md shadow-md"
+        >
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">
+            Espacio para Anuncios
+          </h2>
+          <p class="text-lg text-gray-700 mb-4">
+            Este es un espacio reservado para futuros anuncios de Google AdSense
+            u otro contenido promocional relevante para el mantenimiento de
+            autos.
+          </p>
+          <div
+            class="bg-gray-300 h-40 rounded-md mb-4 flex items-center justify-center text-gray-500"
+          >
+            Anuncio 1
           </div>
           <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+            class="bg-gray-300 h-40 rounded-md mb-4 flex items-center justify-center text-gray-500"
           >
-            <a href="./motor.html">
-              <img
-                class="rounded-t-lg"
-                src="https://www.rodesrecambios.es/wp-content/uploads/2022/06/cambiar-motor-coche.png"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./motor.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Cambio de motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Sustitución completa del motor por uno nuevo o reacondicionado.
-                Se realiza cuando el motor sufre daños irreparables.
-              </p>
-              <a
-                href="./motor.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
+            Anuncio 2
           </div>
-          <div
-            class="max-w-sm col-span-3 justify-self-center bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
-          >
-            <a href="./mantenimiento.html">
-              <img
-                class="rounded-t-lg"
-                src="https://repsaautocentro.com/wp-content/uploads/2018/05/18268493_1514541068578857_6685536562013218292_n.jpg"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./mantenimiento.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Mantenimiento del motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Incluye cambio de aceite, revisión de filtros, correas,
-                inyectores y otros componentes esenciales para prolongar la vida
-                útil del motor.
-              </p>
-              <a
-                href="./mantenimiento.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
+        </aside>
       </div>
     </div>
 

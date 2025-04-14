@@ -4,6 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Herramientas Recomendadas</title>
+    <style>
+      .sidebar {
+        width: 25%; /* Ancho de la barra lateral */
+      }
+
+      @media (min-width: 768px) {
+        .main-content {
+          width: 70%; /* Ancho del contenido principal en pantallas medianas y grandes */
+        }
+      }
+    </style>
     <link rel="stylesheet" href="css/style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
@@ -284,197 +295,329 @@
 
     <!-- TARGETAS SUBCATEGORIAS / ITEMS -->
 
-    <div class="p-4 sm:ml-64">
-      <div class="p-4 rounded-lg dark:border-gray-700 mt-14">
-        <h1 class="text-4xl font-bold text-center text-gray-900 my-8">
-          Mecánica
-        </h1>
+    <div class="mt-20 sm:ml-64">
+      <div
+        class="font-sans antialiased bg-gray-100 text-gray-800 p-6 flex flex-col md:flex-row"
+      >
+        <main class="main-content mb-8 md:mr-8">
+          <header class="mb-8">
+            <h1 class="text-4xl font-bold text-gray-900">
+              Guía Completa sobre la Batería y el Alternador del Auto: Energía
+              Vital
+            </h1>
+            <p class="text-2xl text-gray-700 mt-2">
+              Descubre cómo la batería y el alternador trabajan en conjunto para
+              suministrar la energía eléctrica esencial para el funcionamiento
+              de tu vehículo.
+            </p>
+          </header>
 
-        <div class="grid grid-cols-3 gap-4 justify-items-center">
-          <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
           >
-            <a href="./cambio.html">
-              <img
-                class="rounded-t-lg"
-                src="https://cdn.club-magazin.autodoc.de/uploads/sites/11/2020/11/como-se-alinean-las-ruedas-de-un-coche.jpg"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./cambio.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Cambio de ruedas y alineación
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Revisión del desgaste de neumáticos, cambio de llantas y
-                alineación para evitar problemas de estabilidad y consumo
-                irregular de combustible.
-              </p>
-              <a
-                href="./cambio.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              1. La Batería del Auto: Almacén de Energía Inicial
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >La batería del automóvil</span
               >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
+              es el componente encargado de almacenar la energía eléctrica
+              necesaria para arrancar el motor y alimentar los sistemas
+              eléctricos cuando el motor no está en funcionamiento.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Arranque del motor:</span
                 >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
+                Proporciona la energía inicial para activar el motor de
+                arranque.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Alimentación con el motor apagado:</span
+                >
+                Suministra energía a las luces, la radio y otros accesorios
+                cuando el alternador no está generando electricidad.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Estabilización del sistema eléctrico:</span
+                >
+                Actúa como un amortiguador para las fluctuaciones de voltaje
+                producidas por el alternador.
+              </li>
+            </ul>
+          </section>
 
-          <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
           >
-            <a href="./valvulas.html">
-              <img
-                class="rounded-t-lg"
-                src="https://rehisaresortes.mx/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/08/por-que-se-rompen-los-resortes-de-valvulas-de-motor.jpg.webp"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./valvulas.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              2. El Alternador: El Generador de Energía Continua
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800">El alternador</span> es
+              un generador eléctrico accionado por el motor a través de una
+              correa. Su función principal es recargar la batería mientras el
+              motor está en marcha y suministrar energía eléctrica a todos los
+              sistemas del vehículo.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Recarga de la batería:</span
                 >
-                  Válvulas del motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Inspección y ajuste de las válvulas del motor para evitar
-                pérdida de compresión y mejorar el rendimiento del vehículo.
-              </p>
-              <a
-                href="./valvulas.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                Mantiene la batería cargada para futuros arranques.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Suministro de energía en funcionamiento:</span
+                >
+                Alimenta las luces, el sistema de infoentretenimiento, los
+                limpiaparabrisas, la dirección asistida eléctrica y otros
+                componentes eléctricos.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Trabajo en conjunto:</span
+                >
+                La batería proporciona la energía inicial y el alternador se
+                encarga de mantenerla y alimentar el vehículo en marcha.
+              </li>
+            </ul>
+          </section>
+
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+          >
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              3. Funcionamiento Sincronizado: Batería y Alternador en Acción
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              La batería y el alternador trabajan en una relación simbiótica
+              para asegurar un suministro de energía eléctrica constante y
+              fiable al vehículo.
+            </p>
+            <ul class="list-decimal list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold">Arranque:</span> La
+                batería libera una gran cantidad de energía para poner en marcha
+                el motor a través del motor de arranque.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Funcionamiento del motor:</span
+                >
+                Una vez que el motor está en marcha, el alternador comienza a
+                generar electricidad.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold">Recarga:</span> El
+                alternador envía corriente a la batería para reponer la energía
+                utilizada durante el arranque.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Suministro continuo:</span
+                >
+                El alternador alimenta directamente los sistemas eléctricos del
+                vehículo, y la batería actúa como un respaldo y estabilizador.
+              </li>
+            </ul>
+            <p class="text-2xl leading-relaxed my-4">
+              Imagina la
+              <span class="font-semibold text-gray-800"
+                >batería, robusta y potente,</span
               >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
+              entregando el impulso inicial para que el motor cobre vida.
+            </p>
+            <img
+              src="https://via.placeholder.com/400x300/ffff00/000000?Text=Batería+de+Auto"
+              alt="Batería de Auto"
+              class="mx-auto block rounded-md shadow-md mb-4"
+            />
+
+            <p class="text-2xl leading-relaxed my-4">
+              Ahora visualiza el
+              <span class="font-semibold text-gray-800"
+                >alternador, girando impulsado por la correa del motor,</span
+              >
+              generando constantemente la energía que mantiene todo funcionando
+              y recarga la batería para el próximo arranque.
+            </p>
+            <img
+              src="https://via.placeholder.com/400x300/00ffff/000000?Text=Alternador+de+Auto"
+              alt="Alternador de Auto"
+              class="mx-auto block rounded-md shadow-md mb-4"
+            />
+          </section>
+
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+          >
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              4. Problemas Comunes con la Batería y el Alternador
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              Tanto la batería como el alternador pueden experimentar fallos con
+              el tiempo, afectando la capacidad del vehículo para arrancar y
+              funcionar correctamente.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Batería descargada:</span
                 >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
+                Puede ocurrir por luces encendidas, un alternador defectuoso o
+                una batería vieja.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Batería defectuosa:</span
+                >
+                Celdas dañadas, corrosión en los terminales o vida útil agotada.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Alternador defectuoso:</span
+                >
+                Fallo en el regulador de voltaje, escobillas desgastadas o
+                problemas internos que impiden la generación de electricidad.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Correa del alternador rota o floja:</span
+                >
+                Impide que el alternador gire correctamente.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Consumo excesivo de energía:</span
+                >
+                Sistemas defectuosos que drenan la batería incluso con el motor
+                apagado.
+              </li>
+            </ul>
+          </section>
+
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+          >
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              5. Mantenimiento Preventivo de la Batería y el Alternador
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              Un mantenimiento adecuado puede prolongar la vida útil de la
+              batería y el alternador y prevenir problemas inesperados.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Inspección visual de la batería:</span
+                >
+                Buscar corrosión en los terminales y limpiar si es necesario.
+                Asegurarse de que las conexiones estén firmes.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Prueba de la batería:</span
+                >
+                Realizar pruebas periódicas para verificar su estado de carga y
+                capacidad.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Inspección de la correa del alternador:</span
+                >
+                Verificar su tensión y buscar signos de desgaste o grietas.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Prueba del alternador:</span
+                >
+                Verificar su voltaje de salida para asegurarse de que esté
+                cargando correctamente la batería.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Evitar dejar luces o accesorios encendidos con el motor
+                  apagado durante períodos prolongados.</span
+                >
+              </li>
+            </ul>
+          </section>
+
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+          >
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              6. Señales de Problemas con la Batería o el Alternador
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              Estar atento a ciertas señales puede indicar problemas incipientes
+              con la batería o el alternador.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Arranque lento o dificultoso del motor.</span
+                >
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Luces tenues o parpadeantes, especialmente al ralentí.</span
+                >
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Testigo de la batería encendido en el tablero.</span
+                >
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Olor a quemado proveniente del motor.</span
+                >
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold"
+                  >Ruido inusual proveniente del alternador.</span
+                >
+              </li>
+            </ul>
+            <p class="text-2xl leading-relaxed mt-4">
+              <span class="font-semibold text-gray-800"
+                >Ante cualquiera de estas señales,</span
+              >
+              es recomendable acudir a un taller mecánico para una revisión
+              profesional del sistema de carga y arranque.
+            </p>
+          </section>
+        </main>
+
+        <aside
+          class="sidebar w-full md:w-1/4 p-6 bg-gray-200 rounded-md shadow-md"
+        >
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">
+            Espacio para Anuncios
+          </h2>
+          <p class="text-lg text-gray-700 mb-4">
+            Este es un espacio reservado para futuros anuncios de Google AdSense
+            u otro contenido promocional relevante para la reparación y
+            mantenimiento de baterías y alternadores automotrices.
+          </p>
+          <div
+            class="bg-gray-300 h-40 rounded-md mb-4 flex items-center justify-center text-gray-500"
+          >
+            Anuncio 1
           </div>
           <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+            class="bg-gray-300 h-40 rounded-md mb-4 flex items-center justify-center text-gray-500"
           >
-            <a href="./motor.html">
-              <img
-                class="rounded-t-lg"
-                src="https://www.rodesrecambios.es/wp-content/uploads/2022/06/cambiar-motor-coche.png"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./motor.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Cambio de motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Sustitución completa del motor por uno nuevo o reacondicionado.
-                Se realiza cuando el motor sufre daños irreparables.
-              </p>
-              <a
-                href="./motor.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
+            Anuncio 2
           </div>
-          <div
-            class="max-w-sm col-span-3 justify-self-center bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
-          >
-            <a href="./mantenimiento.html">
-              <img
-                class="rounded-t-lg"
-                src="https://repsaautocentro.com/wp-content/uploads/2018/05/18268493_1514541068578857_6685536562013218292_n.jpg"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./mantenimiento.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Mantenimiento del motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Incluye cambio de aceite, revisión de filtros, correas,
-                inyectores y otros componentes esenciales para prolongar la vida
-                útil del motor.
-              </p>
-              <a
-                href="./mantenimiento.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
+        </aside>
       </div>
     </div>
 

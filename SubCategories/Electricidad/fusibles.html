@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Herramientas Recomendadas</title>
     <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .sidebar {
+        width: 25%; /* Ancho de la barra lateral */
+      }
+
+      @media (min-width: 768px) {
+        .main-content {
+          width: 70%; /* Ancho del contenido principal en pantallas medianas y grandes */
+        }
+      }
+    </style>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
@@ -284,197 +295,220 @@
 
     <!-- TARGETAS SUBCATEGORIAS / ITEMS -->
 
-    <div class="p-4 sm:ml-64">
-      <div class="p-4 rounded-lg dark:border-gray-700 mt-14">
-        <h1 class="text-4xl font-bold text-center text-gray-900 my-8">
-          Mecánica
-        </h1>
+    <div class="mt-20 sm:ml-64">
+      <div
+        class="font-sans antialiased text-gray-800 p-6 flex flex-col md:flex-row"
+      >
+        <main class="main-content mb-8 md:mr-8">
+          <header class="mb-8">
+            <h1 class="text-4xl font-bold text-gray-900">
+              Guía sobre Fusibles y Relés del Auto: Problemas y Soluciones
+            </h1>
+            <p class="text-2xl text-gray-700 mt-2">
+              Entiende la función de los fusibles y relés en tu auto, los
+              problemas comunes que pueden presentar y cómo solucionarlos.
+            </p>
+          </header>
 
-        <div class="grid grid-cols-3 gap-4 justify-items-center">
-          <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
           >
-            <a href="./cambio.html">
-              <img
-                class="rounded-t-lg"
-                src="https://cdn.club-magazin.autodoc.de/uploads/sites/11/2020/11/como-se-alinean-las-ruedas-de-un-coche.jpg"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./cambio.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Cambio de ruedas y alineación
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Revisión del desgaste de neumáticos, cambio de llantas y
-                alineación para evitar problemas de estabilidad y consumo
-                irregular de combustible.
-              </p>
-              <a
-                href="./cambio.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              1. Función Crucial de Fusibles y Relés en el Sistema Eléctrico
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >Los fusibles y relés</span
               >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
+              son componentes esenciales del sistema eléctrico de tu automóvil,
+              diseñados para proteger los circuitos y controlar el flujo de
+              corriente.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold">Fusibles:</span>
+                Actúan como dispositivos de seguridad que se funden e
+                interrumpen el circuito eléctrico cuando hay una sobrecarga de
+                corriente, protegiendo así los componentes más caros de daños.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700 font-semibold">Relés:</span> Son
+                interruptores electromagnéticos que permiten que un circuito de
+                baja corriente controle un circuito de alta corriente. Se
+                utilizan para activar componentes que requieren mucha energía,
+                como faros, bombas de combustible y motores de arranque.
+              </li>
+            </ul>
+          </section>
 
-          <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
           >
-            <a href="./valvulas.html">
-              <img
-                class="rounded-t-lg"
-                src="https://rehisaresortes.mx/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/08/por-que-se-rompen-los-resortes-de-valvulas-de-motor.jpg.webp"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./valvulas.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              2. Problema Común 1: Fusible Quemado
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800">Síntomas:</span> Un
+              componente eléctrico deja de funcionar repentinamente (luces,
+              radio, elevalunas, etc.).
+            </p>
+            <p class="text-2xl leading-relaxed mb-4">
+              Imagina una
+              <span class="font-semibold text-gray-800">caja de fusibles</span>
+              con un fusible que ha interrumpido el circuito debido a una
+              sobrecarga, deteniendo el flujo de energía al componente afectado.
+            </p>
+            <img
+              src="https://via.placeholder.com/400x300/ff4500/ffffff?Text=Fusible+Quemado"
+              alt="Fusible Quemado"
+              class="mx-auto block rounded-md shadow-md mb-4"
+            />
+            <h3 class="text-2xl font-semibold mb-2 text-gray-700">
+              Soluciones:
+            </h3>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Localizar la caja de fusibles:</span
                 >
-                  Válvulas del motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Inspección y ajuste de las válvulas del motor para evitar
-                pérdida de compresión y mejorar el rendimiento del vehículo.
-              </p>
-              <a
-                href="./valvulas.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
+                Generalmente se encuentra en el habitáculo o en el compartimento
+                del motor. Consultar el manual del propietario para su ubicación
+                exacta.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Identificar el fusible correspondiente:</span
                 >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
+                El manual del propietario o un diagrama en la tapa de la caja de
+                fusibles indicará qué fusible protege cada componente.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Inspeccionar el fusible:</span>
+                Retirar el fusible (a menudo con una pinza extractora) y
+                examinar el filamento. Si está roto, el fusible está quemado.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Reemplazar el fusible:</span>
+                Sustituir el fusible quemado por uno nuevo del mismo amperaje
+                (color y número deben coincidir).
+                <span class="font-semibold text-red-600"
+                  >Nunca utilizar un fusible de mayor amperaje, ya que podría
+                  dañar otros componentes o provocar un incendio.</span
+                >
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Investigar la causa:</span> Si el
+                fusible se quema repetidamente, indica un problema subyacente en
+                el circuito que debe ser diagnosticado y reparado por un
+                profesional.
+              </li>
+            </ul>
+          </section>
+
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+          >
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              3. Problema Común 2: Relé Defectuoso
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800">Síntomas:</span> Un
+              componente de alta potencia no se activa (faros no encienden,
+              bomba de combustible no funciona, motor de arranque no gira) o
+              funciona de manera intermitente.
+            </p>
+            <p class="text-2xl leading-relaxed mb-4">
+              Imagina una
+              <span class="font-semibold text-gray-800">placa de relés</span>
+              donde un relé cuyo interruptor electromagnético no se activa
+              correctamente, impidiendo el paso de la corriente al componente
+              que controla.
+            </p>
+            <img
+              src="https://via.placeholder.com/400x300/008080/ffffff?Text=Relé+Defectuoso"
+              alt="Relé Defectuoso"
+              class="mx-auto block rounded-md shadow-md mb-4"
+            />
+            <h3 class="text-2xl font-semibold mb-2 text-gray-700">
+              Soluciones:
+            </h3>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700">Localizar la caja de relés:</span>
+                Similar a la caja de fusibles, su ubicación se detalla en el
+                manual del propietario.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Identificar el relé correspondiente:</span
+                >
+                El manual o un diagrama indicarán la función de cada relé.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Inspeccionar visualmente el relé:</span
+                >
+                Buscar signos de daño físico, como quemaduras o grietas.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Probar el relé (si es posible):</span
+                >
+                <ul class="list-disc list-inside ml-6 text-xl text-gray-500">
+                  <li class="mb-1">
+                    <span class="text-gray-600">Prueba de continuidad:</span>
+                    Con un multímetro, verificar si los contactos del relé se
+                    abren y cierran correctamente al aplicar voltaje a la bobina
+                    de control.
+                  </li>
+                  <li class="mb-1">
+                    <span class="text-gray-600"
+                      >Intercambiar con un relé idéntico:</span
+                    >
+                    Si hay un relé idéntico que controla un componente no
+                    esencial, se puede intercambiar temporalmente para verificar
+                    si el problema se soluciona.
+                  </li>
+                </ul>
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Reemplazar el relé:</span> Si el
+                relé está defectuoso, reemplazarlo por uno nuevo con las mismas
+                especificaciones (voltaje, amperaje, número de terminales).
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Diagnóstico profesional:</span> Si
+                el problema persiste después de reemplazar el relé, puede haber
+                un problema en el circuito de control o en el componente que
+                alimenta, lo que requiere un diagnóstico profesional.
+              </li>
+            </ul>
+          </section>
+        </main>
+
+        <aside
+          class="sidebar w-full md:w-1/4 p-6 bg-gray-200 rounded-md shadow-md"
+        >
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">
+            Espacio para Anuncios
+          </h2>
+          <p class="text-lg text-gray-700 mb-4">
+            Este es un espacio reservado para futuros anuncios de Google AdSense
+            u otro contenido promocional relevante para la reparación y
+            mantenimiento del sistema eléctrico automotriz, incluyendo fusibles
+            y relés.
+          </p>
+          <div
+            class="bg-gray-300 h-40 rounded-md mb-4 flex items-center justify-center text-gray-500"
+          >
+            Anuncio 1
           </div>
           <div
-            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+            class="bg-gray-300 h-40 rounded-md mb-4 flex items-center justify-center text-gray-500"
           >
-            <a href="./motor.html">
-              <img
-                class="rounded-t-lg"
-                src="https://www.rodesrecambios.es/wp-content/uploads/2022/06/cambiar-motor-coche.png"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./motor.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Cambio de motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Sustitución completa del motor por uno nuevo o reacondicionado.
-                Se realiza cuando el motor sufre daños irreparables.
-              </p>
-              <a
-                href="./motor.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
+            Anuncio 2
           </div>
-          <div
-            class="max-w-sm col-span-3 justify-self-center bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
-          >
-            <a href="./mantenimiento.html">
-              <img
-                class="rounded-t-lg"
-                src="https://repsaautocentro.com/wp-content/uploads/2018/05/18268493_1514541068578857_6685536562013218292_n.jpg"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="./mantenimiento.html">
-                <h5
-                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-                >
-                  Mantenimiento del motor
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Incluye cambio de aceite, revisión de filtros, correas,
-                inyectores y otros componentes esenciales para prolongar la vida
-                útil del motor.
-              </p>
-              <a
-                href="./mantenimiento.html"
-                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                Saber más
-                <svg
-                  class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
+        </aside>
       </div>
     </div>
 
