@@ -4,6 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Herramientas Recomendadas</title>
+    <style>
+      .sidebar {
+        width: 25%; /* Ancho de la barra lateral */
+      }
+
+      @media (min-width: 768px) {
+        .main-content {
+          width: 70%; /* Ancho del contenido principal en pantallas medianas y grandes */
+        }
+      }
+    </style>
     <link rel="stylesheet" href="css/style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
@@ -282,247 +293,331 @@
       </div>
     </aside>
 
-    <div class="max-w-4xl mx-auto px-4 space-y-10">
-      <div class="p-4 rounded-lg dark:border-gray-700 mt-14">
-        <header class="mb-10 mt-10">
-          <h1 class="text-4xl font-bold text-gray-900">
-            Preparación del Color de Carrocería: La Clave para una Reparación de
-            Autos Impecable
-          </h1>
-          <p class="text-3xl text-gray-700 mt-2">
-            Aprende con nuestra guía paso a paso cómo preparar el color perfecto
-            para la pintura de tu coche y lograr un acabado profesional en tus
-            reparaciones.
-          </p>
-        </header>
+    <div class="mt-20 sm:ml-64">
+      <div
+        class="font-sans antialiased text-gray-800 p-6 flex flex-col md:flex-row"
+      >
+        <main class="main-content mb-8 md:mr-8">
+          <header class="mb-8">
+            <h1 class="text-4xl font-bold text-gray-900">
+              Guía sobre la Preparación del Color para la Pintura Automotriz:
+              Información Detallada
+            </h1>
+            <p class="text-2xl text-gray-700 mt-2">
+              Descubre los aspectos clave y los procesos involucrados en la
+              preparación del color de la pintura automotriz para lograr una
+              coincidencia precisa y un acabado de calidad.
+            </p>
+          </header>
 
-        <div
-          class="mb-6 border border-gray-300 rounded-md p-4 bg-white shadow-sm"
-        >
-          <h2 class="text-3xl font-semibold mb-2 text-gray-700">
-            1. Identificación del Código de Color
-          </h2>
-          <p class="leading-relaxed mb-3">
-            El primer paso crucial es identificar el código de color exacto de
-            la carrocería del vehículo. Esto asegura que la pintura nueva
-            coincida perfectamente con el color original.
-          </p>
-          <div class="ml-6 text-sm text-gray-600">
-            <h3 class="font-semibold mb-1">
-              Dónde encontrar el código de color:
-            </h3>
-            <ul class="list-disc list-inside mb-2">
-              <li>
-                <span class="text-gray-700">Etiqueta en la carrocería:</span>
-                Suele estar ubicada en la puerta del conductor o del pasajero,
-                en el marco de la puerta, en el capó, en el maletero o en el
-                manual del propietario.
-              </li>
-              <li>
-                <span class="text-gray-700">Manual del propietario:</span> A
-                menudo incluye el código de color y su denominación.
-              </li>
-              <li>
-                <span class="text-gray-700">Consulta al concesionario:</span> Si
-                no encuentras la etiqueta, el concesionario oficial de la marca
-                puede proporcionarte el código con el número de VIN (Vehicle
-                Identification Number) del coche.
-              </li>
-            </ul>
-            <p class="italic text-gray-500">
-              Es importante anotar el código completo, ya que puede incluir
-              letras y números.
-            </p>
-          </div>
-        </div>
-
-        <div
-          class="mb-6 border border-gray-300 rounded-md p-4 bg-white shadow-sm"
-        >
-          <h2 class="text-xl font-semibold mb-2 text-gray-700">
-            2. Selección y Mezcla de la Pintura
-          </h2>
-          <p class="leading-relaxed mb-3">
-            Una vez que se tiene el código de color, se procede a seleccionar la
-            pintura base adecuada y a realizar la mezcla según la fórmula
-            específica.
-          </p>
-          <div class="ml-6 text-sm text-gray-600">
-            <h3 class="font-semibold mb-1">Tipos de pintura comunes:</h3>
-            <ul class="list-disc list-inside mb-2">
-              <li>
-                <span class="text-gray-700"
-                  >Pintura de un componente (monocapa):</span
-                >
-                El color y el brillo se logran en una sola capa.
-              </li>
-              <li>
-                <span class="text-gray-700"
-                  >Pintura de dos componentes (bicapa):</span
-                >
-                Requiere una capa de color base y luego una capa de barniz
-                transparente para el brillo y la protección.
-              </li>
-              <li>
-                <span class="text-gray-700"
-                  >Pintura de tres componentes (tricapa):</span
-                >
-                Incluye una capa base, una capa de efecto (perlado o metalizado)
-                y una capa de barniz.
-              </li>
-            </ul>
-            <h3 class="font-semibold mb-1 mt-2">Proceso de mezcla:</h3>
-            <ol class="list-decimal list-inside mb-2">
-              <li>
-                <span class="text-gray-700">Consulta de la fórmula:</span> Se
-                introduce el código de color en un software o catálogo de
-                pinturas para obtener la fórmula de mezcla (proporciones de
-                pigmentos y diluyentes).
-              </li>
-              <li>
-                <span class="text-gray-700">Dosificación precisa:</span> Se
-                utilizan balanzas de precisión para medir las cantidades exactas
-                de cada componente según la fórmula.
-              </li>
-              <li>
-                <span class="text-gray-700">Mezcla homogénea:</span> Los
-                componentes se mezclan cuidadosamente con agitadores mecánicos o
-                manualmente hasta obtener una consistencia y color uniforme.
-              </li>
-              <li>
-                <span class="text-gray-700">Filtrado:</span> La pintura mezclada
-                se filtra para eliminar cualquier impureza o grumo que pueda
-                afectar el acabado.
-              </li>
-            </ol>
-            <p class="italic text-gray-500">
-              La precisión en la mezcla es crucial para lograr la igualación de
-              color.
-            </p>
-          </div>
-        </div>
-        <section class="text-center mt-10">
-          <img
-            src="https://cdn2.hubspot.net/hubfs/500845/Im%C3%A1genes_Post/Noviembre%202017/pintura-coche.jpg"
-            alt="seleccionando un color para el vehiculo"
-            class="rounded-lg shadow-md mx-auto w-full md:w-3/3"
-          />
-          <p class="text-sm text-gray-500 mt-2 mb-10">
-            Imagen: seleccionando un color para el vehiculo.
-          </p>
-        </section>
-
-        <div
-          class="mb-6 border border-gray-300 rounded-md p-4 bg-white shadow-sm"
-        >
-          <h2 class="text-xl font-semibold mb-2 text-gray-700">
-            3. Ajuste y Prueba del Color (Entonado)
-          </h2>
-          <p class="leading-relaxed mb-3">
-            Aunque se siga la fórmula, pueden existir ligeras variaciones debido
-            a factores como la antigüedad de la pintura original o las
-            diferencias entre marcas de pintura. Por ello, es fundamental
-            realizar una prueba y ajustar el color si es necesario.
-          </p>
-          <div class="ml-6 text-sm text-gray-600">
-            <h3 class="font-semibold mb-1">Proceso de entonado:</h3>
-            <ol class="list-decimal list-inside mb-2">
-              <li>
-                <span class="text-gray-700">Preparación de la muestra:</span> Se
-                pinta una pequeña muestra (tarjeta de prueba o pieza similar)
-                con la pintura recién mezclada.
-              </li>
-              <li>
-                <span class="text-gray-700">Comparación visual:</span> Se
-                compara la muestra seca con la pintura original del vehículo
-                bajo diferentes condiciones de luz (natural y artificial).
-              </li>
-              <li>
-                <span class="text-gray-700">Ajustes:</span> Si el color no
-                coincide perfectamente, se realizan pequeños ajustes añadiendo
-                pigmentos específicos en cantidades muy pequeñas y volviendo a
-                mezclar. Este proceso se repite hasta lograr la igualación
-                deseada.
-              </li>
-              <li>
-                <span class="text-gray-700">Registro del ajuste:</span> Se anota
-                la fórmula final ajustada para futuras referencias.
-              </li>
-            </ol>
-            <p class="italic text-gray-500">
-              El entonado requiere experiencia y un ojo entrenado para
-              identificar las sutiles diferencias de color.
-            </p>
-          </div>
-        </div>
-        <section class="text-center mt-10">
-          <img
-            src="https://i.pinimg.com/474x/6f/27/b4/6f27b4d5e7999b15a9346eb9041cefd2.jpg"
-            alt="Mezclando la tinta y la base para obtener el color"
-            class="rounded-lg shadow-md mx-auto w-full md:w-3/3"
-          />
-          <p class="text-sm text-gray-500 mt-2 mb-10">
-            Imagen: Mezclando la tinta y la base para obtener el color.
-          </p>
-        </section>
-        <div
-          class="mb-6 border border-gray-300 rounded-md p-4 bg-white shadow-sm"
-        >
-          <h2 class="text-xl font-semibold mb-2 text-gray-700">
-            4. Preparación de la Pintura para la Aplicación
-          </h2>
-          <p class="leading-relaxed mb-3">
-            Una vez que el color es el correcto, se prepara la pintura para su
-            aplicación mediante la adición de los productos necesarios y el
-            ajuste de la viscosidad.
-          </p>
-          <div class="ml-6 text-sm text-gray-600">
-            <h3 class="font-semibold mb-1">Adición de productos:</h3>
-            <ul class="list-disc list-inside mb-2">
-              <li>
-                <span class="text-gray-700">Reductores o diluyentes:</span> Se
-                añaden para ajustar la viscosidad de la pintura, facilitando su
-                aplicación con la pistola y logrando un acabado uniforme. El
-                tipo y la cantidad dependen del tipo de pintura, la temperatura
-                ambiente y el equipo de aplicación.
-              </li>
-              <li>
-                <span class="text-gray-700"
-                  >Catalizadores o endurecedores (en pinturas de dos
-                  componentes):</span
-                >
-                Se mezclan justo antes de la aplicación para iniciar el proceso
-                de curado y asegurar la durabilidad y resistencia de la pintura.
-              </li>
-              <li>
-                <span class="text-gray-700">Aditivos (opcional):</span> Se
-                pueden añadir aditivos para mejorar el flujo, la nivelación, la
-                adherencia o las propiedades antiestáticas de la pintura.
-              </li>
-            </ul>
-            <h3 class="font-semibold mb-1 mt-2">Ajuste de la viscosidad:</h3>
-            <p class="leading-relaxed mb-2">
-              <span class="text-gray-700"
-                >Se utiliza una copa de viscosidad (Ford cup o similar)</span
-              >
-              para medir la fluidez de la pintura y asegurarse de que esté
-              dentro del rango recomendado por el fabricante para la pistola de
-              pintura utilizada.
-            </p>
-            <p class="italic text-gray-500">
-              Seguir las instrucciones del fabricante de la pintura es crucial
-              para una correcta preparación.
-            </p>
-          </div>
-        </div>
-        <section class="my-10">
-          <div
-            class="w-full mb-20 h-32 bg-gray-200 flex items-center justify-center"
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
           >
-            <!-- Aquí iría el código de tu banner de Google AdSense -->
-            <span class="text-gray-500">Espacio reservado para publicidad</span>
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              1. La Importancia de una Preparación Precisa del Color
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >La preparación del color es una etapa crítica</span
+              >
+              en el proceso de pintura automotriz, especialmente cuando se busca
+              igualar el color original del vehículo para reparaciones o
+              repintados parciales. Una preparación imprecisa puede resultar en:
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700">Desajuste de color:</span> La nueva
+                pintura no coincidirá con el color existente del vehículo, lo
+                que será visualmente evidente.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Discrepancias bajo diferentes luces:</span
+                >
+                Incluso si un color parece coincidir bajo una luz específica,
+                puede verse diferente bajo otra (por ejemplo, luz solar directa
+                versus luz artificial).
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Problemas de mezcla:</span>
+                Dificultad para difuminar la nueva pintura con la antigua para
+                lograr una transición suave e invisible.
+              </li>
+            </ul>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >Una preparación cuidadosa del color asegura</span
+              >
+              una coincidencia precisa, un acabado uniforme y la satisfacción
+              del cliente.
+            </p>
+          </section>
+
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+          >
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              2. Factores que Influyen en el Color de la Pintura Automotriz
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >Varios factores pueden afectar el color final de la pintura de
+                un automóvil,</span
+              >
+              lo que hace que la preparación precisa sea un desafío:
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Código de color del fabricante:</span
+                >
+                Este código proporciona la fórmula base del color original, pero
+                puede haber variaciones dentro del mismo código debido a
+                diferentes lotes de pintura o años de producción.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Envejecimiento y decoloración:</span
+                >
+                La pintura original del vehículo se desvanece y cambia de color
+                con el tiempo debido a la exposición a los rayos UV, el clima y
+                otros factores ambientales.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Proceso de aplicación original:</span
+                >
+                Las capas de pintura (imprimación, base, transparente) y el
+                método de aplicación en la fábrica pueden influir en el color
+                final.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Variaciones en los sistemas de pintura:</span
+                >
+                Diferentes marcas y tipos de pintura (por ejemplo, base agua,
+                base solvente) pueden tener ligeras variaciones en el color
+                incluso con la misma fórmula.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Condiciones de aplicación:</span> La
+                temperatura, la humedad y el equipo de pulverización pueden
+                afectar el color final.
+              </li>
+            </ul>
+          </section>
+
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+          >
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              3. Pasos Generales en la Preparación del Color
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >La preparación del color generalmente sigue estos pasos:</span
+              >
+            </p>
+            <ul class="list-decimal list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Obtención del código de color:</span
+                >
+                Se localiza el código de color del vehículo, que generalmente se
+                encuentra en una etiqueta dentro de la puerta del conductor, el
+                capó o el maletero.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Consulta de la fórmula de color:</span
+                >
+                Utilizando el código de color, se consulta una base de datos o
+                un sistema de mezcla de pintura para obtener la fórmula
+                específica del color, que indica las proporciones de diferentes
+                tintes o toners necesarios.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Variantes de color:</span> Es común
+                que existan varias "variantes" o ligeras modificaciones de un
+                mismo código de color para tener en cuenta las diferencias de
+                fabricación o el envejecimiento. Se deben consultar las cartas
+                de color o realizar pruebas para determinar la variante más
+                adecuada.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Mezcla de la pintura:</span> Se
+                miden y se mezclan los diferentes tintes o toners en las
+                proporciones exactas indicadas por la fórmula, utilizando
+                balanzas de precisión y equipos de mezcla adecuados.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Prueba de pulverización (spray-out):</span
+                >
+                Se pulveriza una pequeña cantidad de la pintura mezclada sobre
+                una tarjeta de prueba o una superficie similar con el mismo tipo
+                de imprimación y número de capas que se utilizarán en el
+                vehículo.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Comparación de color:</span> La
+                tarjeta de prueba se compara cuidadosamente con el color
+                existente del vehículo bajo diferentes condiciones de luz (luz
+                natural, luz artificial). Se evalúa la coincidencia del tono
+                (hue), la saturación (croma) y el valor (luminosidad).
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Ajustes del color (tintado):</span>
+                Si el color de prueba no coincide perfectamente, se realizan
+                ajustes añadiendo pequeñas cantidades de tintes adicionales para
+                acercarse al color deseado. Se repiten las pruebas de
+                pulverización y comparación hasta lograr una coincidencia
+                precisa. Este proceso requiere habilidad y experiencia.
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Registro de la fórmula ajustada:</span
+                >
+                Una vez que se logra una buena coincidencia, se registra la
+                fórmula final, incluyendo cualquier ajuste realizado, para
+                futuras referencias.
+              </li>
+            </ul>
+          </section>
+
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+          >
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              4. Herramientas y Materiales para la Preparación del Color
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >La preparación precisa del color requiere el uso de
+                herramientas y materiales específicos.</span
+              >
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Bases de datos de fórmulas de color automotriz (físicas o
+                  digitales).</span
+                >
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Sistemas de mezcla de pintura con dispensadores
+                  precisos.</span
+                >
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Balanzas de precisión para medir los tintes.</span
+                >
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700">Vasos y varillas de mezcla.</span>
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Cartas de color y muestras de variantes.</span
+                >
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Pistola de pulverización y equipo de aire comprimido para las
+                  pruebas.</span
+                >
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Tarjetas de prueba de pintura.</span
+                >
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Fuentes de luz calibradas para la comparación de
+                  colores.</span
+                >
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Espectrofotómetros (herramientas avanzadas para leer el color
+                  y proporcionar fórmulas).</span
+                >
+              </li>
+            </ul>
+          </section>
+
+          <section
+            class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md"
+          >
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">
+              5. La Importancia de la Experiencia y la Habilidad
+            </h2>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >Aunque la tecnología juega un papel importante,</span
+              >
+              la habilidad y la experiencia del pintor son cruciales en la
+              preparación del color.
+            </p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Interpretación de las fórmulas y las cartas de color.</span
+                >
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Realización de ajustes precisos al color.</span
+                >
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Comprensión de cómo la luz afecta la percepción del
+                  color.</span
+                >
+              </li>
+              <li class="mb-2">
+                <span class="text-gray-700"
+                  >Identificación de variantes de color sutiles.</span
+                >
+              </li>
+            </ul>
+            <p class="text-2xl leading-relaxed mb-4">
+              <span class="font-semibold text-gray-800"
+                >Un pintor experimentado podrá lograr una coincidencia de color
+                casi perfecta,</span
+              >
+              incluso en casos difíciles.
+            </p>
+          </section>
+        </main>
+
+        <aside
+          class="sidebar w-full md:w-1/4 p-6 bg-gray-200 rounded-md shadow-md"
+        >
+          <h2 class="text-2xl font-semibold mb-4 text-gray-800">
+            Espacio para Anuncios
+          </h2>
+          <p class="text-lg text-gray-700 mb-4">
+            Este es un espacio reservado para futuros anuncios de Google AdSense
+            u otro contenido promocional relevante para sistemas de mezcla de
+            pintura automotriz, tintes, balanzas de precisión y herramientas
+            para la preparación del color.
+          </p>
+          <div
+            class="bg-gray-300 h-40 rounded-md mb-4 flex items-center justify-center text-gray-500"
+          >
+            Anuncio 1
           </div>
-        </section>
+          <div
+            class="bg-gray-300 h-40 rounded-md mb-4 flex items-center justify-center text-gray-500"
+          >
+            Anuncio 2
+          </div>
+        </aside>
       </div>
     </div>
 

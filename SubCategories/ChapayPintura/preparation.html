@@ -4,6 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Herramientas Recomendadas</title>
+    <style>
+      .sidebar {
+          width: 25%; /* Ancho de la barra lateral */
+      }
+
+      @media (min-width: 768px) {
+          .main-content {
+              width: 70%; /* Ancho del contenido principal en pantallas medianas y grandes */
+          }
+      }
+  </style>
     <link rel="stylesheet" href="css/style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
@@ -185,138 +196,103 @@
         </ul>
       </div>
     </aside>
-    <header class="text-center my-10 pt-20">
-        <h1 class="text-5xl font-bold">Preparación de la Superficie</h1>
-        <p class="text-2xl text-gray-600 mt-2">Paso esencial antes de aplicar pintura sobre la carrocería del vehículo.</p>
-    </header>
+   
     
     <!-- Contenido principal -->
-    <main class="max-w-4xl mx-auto px-4 space-y-10">
-        
-        <!-- Párrafo 1 -->
-        <section>
-            <h1 class="text-4xl font-bold ">Limpieza Inicial</h1>
-            <h2 class="text-3xl font-bold mt-5">Lavado:</h2>
-            <p class="text-2xl ">Eliminar suciedad superficial, polvo, grasa, insectos y cualquier contaminante. Se utilizan agua, jabón específico para autos y esponjas o paños suaves.</p>
-            <h2 class="text-3xl font-bold mt-5">Desengrasante:</h2>
-            <p class="text-2xl "> Eliminar residuos de aceite, cera, silicona o cualquier otro producto que pueda impedir la adherencia de los materiales posteriores. Se utilizan desengrasantes específicos.</p>
-           
+    <div class="mt-20 sm:ml-64">
+      <div
+        class="font-sans antialiased text-gray-800 p-6 flex flex-col md:flex-row"
+      > <main class="main-content mb-8 md:mr-8">
+        <header class="mb-8">
+            <h1 class="text-4xl font-bold text-gray-900">Guía sobre la Preparación de la Superficie para la Chapa y Pintura Automotriz: Información Detallada</h1>
+            <p class="text-2xl text-gray-700 mt-2">Descubre la importancia crítica y los pasos esenciales en la preparación de la superficie de un automóvil antes de aplicar cualquier trabajo de chapa y pintura para asegurar un acabado duradero y de alta calidad.</p>
+        </header>
+
+        <section class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md">
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">1. La Importancia Fundamental de la Preparación de la Superficie</h2>
+            <p class="text-2xl leading-relaxed mb-4"><span class="font-semibold text-gray-800">La preparación de la superficie es la etapa más crucial</span> en cualquier trabajo de chapa y pintura automotriz. Un trabajo de pintura de alta calidad solo es posible sobre una superficie adecuadamente preparada. Una preparación deficiente puede llevar a problemas como:</p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+                <li class="mb-2"><span class="text-gray-700">Mala adherencia de la pintura:</span> La pintura puede descascararse, levantarse o desprenderse prematuramente si la superficie no está limpia y lijada correctamente.</li>
+                <li class="mb-2"><span class="text-gray-700">Acabado desigual:</span> Imperfecciones en la superficie subyacente (como óxido, abolladuras o rayones) se harán visibles a través de la nueva pintura si no se corrigen.</li>
+                <li class="mb-2"><span class="text-gray-700">Problemas de brillo y textura:</span> Una superficie irregular afectará el brillo y la textura uniforme de la pintura final.</li>
+                <li class="mb-2"><span class="text-gray-700">Corrosión recurrente:</span> Si el óxido no se elimina por completo, puede seguir propagándose bajo la nueva capa de pintura.</li>
+            </ul>
+            <p class="text-2xl leading-relaxed mb-4"><span class="font-semibold text-gray-800">Una preparación meticulosa garantiza</span> una base sólida para la pintura, promoviendo una excelente adherencia, un acabado liso y uniforme, y una mayor durabilidad del trabajo realizado.</p>
         </section>
-  
-        <!-- Imagen 1 -->
-        <section>
-          <img src="https://clubdelpintoraxalta.com/wp-content/uploads/2022/10/lijas-para-repintado-automotriz-c-min.jpg" alt="Lijado de superficie de auto" class="rounded-lg shadow-md mx-auto w-full md:w-2/3" />
-          <h1 class="text-4xl font-bold mt-10">Evaluación y Reparación de Daños</h1>
-          <h2 class="text-3xl font-bold mt-5">Inspección: </h2>
-          <p class="text-2xl ">Eliminar suciedad superficial, polvo, grasa, insectos y cualquier contaminante. Se utilizan agua, jabón específico para autos y esponjas o paños suaves.</p>
-          <h2 class="text-3xl font-bold mt-5">Desabollado:</h2>
-          <p class="text-2xl ">  Reparar las abolladuras utilizando diversas técnicas (palancas, ventosas, martillos de inercia, etc.).</p>
-                 
-          <h2 class="text-3xl font-bold mt-5">Eliminación de Óxido:</h2>
-          <p class="text-2xl ">Lijar, cepillar con alambre o utilizar removedores químicos para eliminar completamente el óxido. Es crucial detener su avance.</p>
-                 
-          <h2 class="text-3xl font-bold mt-5">Remoción de Pintura Vieja:</h2>
-          <p class="text-2xl ">Si la pintura está en mal estado (desconchada, agrietada), se puede remover mediante lijado, decapantes químicos o arenado (sandblasting).</p>                 
-          
-        </section>
-        
-        <!-- Párrafo 2 -->
-        <section>
-            <h1 class="text-4xl font-bold mt-10">Masillado (Empastado)</h1>
-            <h2 class="text-3xl font-bold mt-5">Aplicación de Masilla:</h2>
-            <p class="text-2xl ">Rellenar abolladuras superficiales, imperfecciones y uniones con masilla automotriz (de poliéster, epoxi, etc.). Se aplica en capas finas y se deja secar completamente.</p>
-            <h2 class="text-3xl font-bold mt-5">Lijado de la Masilla:</h2>
-            <p class="text-2xl ">Una vez seca, se lija la masilla con diferentes granos de lija (grueso a fino) para igualar la superficie con el resto de la carrocería y darle la forma deseada. Es crucial lograr una transición suave.</p>
-        </section>
-        
-        <!-- Imagen 2 -->
-        <section class="text-center">
-            <img src="https://cdn2.hubspot.net/hubfs/500845/Im%C3%A1genes_Post/Febrero_2016/Masilla_fibra_de_vidrio..jpg" alt="Aplicación de masilla sobre superficie metálica" class="rounded-lg shadow-md mx-auto w-full md:w-3/3" />
-            <p class="text-sm text-gray-500 mt-2">Imagen: Aplicación de masilla en áreas dañadas.</p>
-        </section>
-        
-        <!-- Párrafo 3 -->
-        <section class="my-10">
-            <div class="w-full h-32 bg-gray-200 flex items-center justify-center">
-                <!-- Aquí iría el código de tu banner de Google AdSense -->
-                <span class="text-gray-500">Espacio reservado para publicidad</span>
-            </div>
-        </section>
-        <!-- Párrafo 4 -->
-        <section>
-            <h1 class="text-4xl font-bold mt-10">Imprimación (Primer)</h1>
-            <h2 class="text-3xl font-bold mt-5">Aplicación de Imprimación:</h2>
-            <p class="text-2xl ">Se aplica una o varias capas de imprimación (aparejo) sobre la superficie lijada y masillada.</p>
-            <h2 class="text-3xl font-bold mt-5">Objetivos de la Imprimación:</h2>
-            <ul>
-                <li>
-                    <h1 class="text-3xl font-bold mt-5">
-                        Promover la Adherencia:
-                    </h1>
-                    <p class="text-2xl ">Crea una superficie óptima para que la pintura final se adhiera correctamente.</p>
-                    <h1 class="text-3xl font-bold mt-5">
-                        Rellenar Micro-poros:
-                    </h1>
-                    <p class="text-2xl ">Sella pequeñas imperfecciones que puedan haber quedado después del lijado de la masilla.</p>
-                    <h1 class="text-3xl font-bold mt-5">
-                        Uniformar el Color de Fondo:
-                    </h1>
-                    <p class="text-2xl ">Asegura un color base uniforme para la aplicación de la pintura, lo que influye en el tono final.</p>
-                    <h1 class="text-3xl font-bold mt-5">
-                        Protección Anticorrosiva (en algunos tipos):
-                    </h1>
-                    <p class="text-2xl ">Algunas imprimaciones contienen aditivos para prevenir la aparición de óxido.</p>
-                    
+
+        <section class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md">
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">2. Pasos Esenciales en la Preparación de la Superficie</h2>
+            <p class="text-2xl leading-relaxed mb-4"><span class="font-semibold text-gray-800">El proceso de preparación de la superficie puede variar</span> según el estado inicial de la carrocería, pero generalmente incluye los siguientes pasos:</p>
+            <ul class="list-decimal list-inside ml-6 text-2xl text-gray-600">
+                <li class="mb-2"><span class="text-gray-700">Limpieza inicial:</span> Se lava a fondo la carrocería para eliminar suciedad, grasa, aceite, insectos y cualquier otro contaminante superficial. Se pueden utilizar agua y jabón, desengrasantes específicos para automóviles y cepillos.</li>
+                <li class="mb-2"><span class="text-gray-700">Inspección y evaluación:</span> Se examina cuidadosamente la superficie en busca de óxido, abolladuras, rayones, pintura descascarada o cualquier otro daño. Se evalúa la extensión y la gravedad de los problemas para determinar las reparaciones necesarias.</li>
+                <li class="mb-2"><span class="text-gray-700">Eliminación de óxido:</span> El óxido debe eliminarse por completo para evitar su propagación. Los métodos comunes incluyen:
+                    <ul class="list-disc list-inside ml-6 text-xl text-gray-500">
+                        <li class="mb-1"><span class="text-gray-600">Lijado manual o con lijadora eléctrica:</span> Para áreas pequeñas o óxido superficial.</li>
+                        <li class="mb-1"><span class="text-gray-600">Cepillos de alambre:</span> Para óxido más adherido.</li>
+                        <li class="mb-1"><span class="text-gray-600">Tratamientos químicos convertidores de óxido:</span> Para neutralizar el óxido restante en áreas difíciles de alcanzar.</li>
+                        <li class="mb-1"><span class="text-gray-600">Chorro de arena o granalla (sandblasting/media blasting):</span> Para eliminar óxido extenso y pintura vieja, aunque requiere equipo especializado y precaución.</li>
+                    </ul>
                 </li>
+                <li class="mb-2"><span class="text-gray-700">Reparación de abolladuras y daños:</span> Se utilizan diversas técnicas para reparar abolladuras y otros daños en la chapa:
+                    <ul class="list-disc list-inside ml-6 text-xl text-gray-500">
+                        <li class="mb-1"><span class="text-gray-600">Extracción de abolladuras con ventosas o herramientas especializadas.</span></li>
+                        <li class="mb-1"><span class="text-gray-600">Relleno con masilla para carrocería (body filler):</span> Para nivelar áreas dañadas o con pequeñas imperfecciones después de la extracción de abolladuras. La masilla se lija hasta obtener una superficie lisa y uniforme.</li>
+                        <li class="mb-1"><span class="text-gray-600">Soldadura:</span> Para reparar cortes o daños estructurales más grandes.</li>
+                    </ul>
+                </li>
+                <li class="mb-2"><span class="text-gray-700">Lijado:</span> El lijado es un paso crucial para crear una superficie uniforme y proporcionar adherencia mecánica para las capas de pintura posteriores. Se utilizan diferentes granos de lija en secuencia (desde más grueso hasta más fino) para:
+                    <ul class="list-disc list-inside ml-6 text-xl text-gray-500">
+                        <li class="mb-1"><span class="text-gray-600">Remover pintura vieja o dañada.</span></li>
+                        <li class="mb-1"><span class="text-gray-600">Nivelar la masilla para carrocería.</span></li>
+                        <li class="mb-1"><span class="text-gray-600">Crear una superficie ligeramente áspera para que la imprimación se adhiera correctamente.</span></li>
+                    </ul>
+                </li>
+                <li class="mb-2"><span class="text-gray-700">Enmascarado (masking):</span> Se cubren con cinta de enmascarar y papel o plástico todas las áreas que no se van a pintar (vidrios, molduras, luces, etc.) para protegerlas de la pintura.</li>
+                <li class="mb-2"><span class="text-gray-700">Limpieza final antes de la imprimación:</span> Se limpia nuevamente la superficie lijada para eliminar cualquier residuo de polvo del lijado, huellas dactilares o contaminantes que puedan afectar la adherencia de la imprimación. Se pueden utilizar limpiadores específicos o desengrasantes.</li>
             </ul>
-            <h2 class="text-3xl font-bold mt-5">Tipos de Imprimación: </h2>
-            <p class="text-2xl ">Epoxi, poliuretano, acrílica, fosfatizante (wash primer). La elección depende del tipo de superficie y la pintura a aplicar.</p>
         </section>
-        
-        <!-- Párrafo 5 -->
-        <section>
-            <img src="https://rsprorefinish.es/wp-content/uploads/2023/11/lijado.png" />
-            <p class="text-sm text-gray-500 mt-2">Imagen: Lijado del primer.</p>
-            <h1 class="text-4xl font-bold mt-10">Lijado de la Imprimación:</h1>
-            <h2 class="text-3xl font-bold mt-5">Lijado Fino:</h2>
-            <p class="text-2xl ">Una vez seca la imprimación, se lija suavemente con lijas de grano fino (ej. P400, P600) para eliminar cualquier imperfección, piel de naranja o mota de polvo que haya quedado.</p>
-            <h2 class="text-3xl font-bold mt-5">Preparación para la Pintura:</h2>
-            <p class="text-2xl ">El objetivo es obtener una superficie perfectamente lisa y uniforme lista para recibir la capa de color.</p>
-        </section>
-        
-        <!-- Párrafo 6 -->
-        <section>
-            <h1 class="text-4xl font-bold mt-10">Limpieza Final:</h1>
-            <h2 class="text-3xl font-bold mt-5">Desengrasado Final:</h2>
-            <p class="text-2xl ">Antes de pintar, se realiza una última limpieza con un desengrasante antiestático para eliminar cualquier residuo de lijado, huellas dactilares o polvo.</p>
-            <h2 class="text-3xl font-bold mt-5">Soplado:</h2>
-            <p class="text-2xl ">Se utiliza aire comprimido para eliminar cualquier partícula suelta.</p>
-            <h2 class="text-3xl font-bold mt-5">Paño Atrapa Polvo (Tack Cloth):</h2>
-            <p class="text-2xl ">Se pasa suavemente un paño pegajoso para asegurar una superficie libre de polvo justo antes de la aplicación de la pintura.</p>
-        </section>
-        <!-- Herramientas y productos recomendados -->
-        <section class="mt-10">
-            <h2 class="text-4xl font-semibold mb-4">🛠️ Herramientas y productos necesarios</h2>
-            <ul class="list-disc list-inside space-y-2 text-2xl">
-                <li>Lijas para metal (grano 80, 120, 220)</li>
-                <li>Desengrasante automotriz</li>
-                <li>Masilla plástica para carrocería</li>
-                <li>Espátula de aplicación</li>
-                <li>Imprimación o primer automotriz</li>
-                <li>Pistola de aire o compresor</li>
-                <li>Paños de microfibra</li>
+
+        <section class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md">
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">3. Herramientas y Materiales Comunes para la Preparación de la Superficie</h2>
+            <p class="text-2xl leading-relaxed mb-4"><span class="font-semibold text-gray-800">Una preparación adecuada requiere el uso de diversas herramientas y materiales.</span></p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+                <li class="mb-2"><span class="text-gray-700">Lijas de diferentes granos (desde grueso hasta fino).</span></li>
+                <li class="mb-2"><span class="text-gray-700">Bloques de lijado manuales y lijadoras eléctricas (orbitales, rotorbitales).</span></li>
+                <li class="mb-2"><span class="text-gray-700">Masilla para carrocería y herramientas de aplicación (espátulas).</span></li>
+                <li class="mb-2"><span class="text-gray-700">Desengrasantes y limpiadores de superficies.</span></li>
+                <li class="mb-2"><span class="text-gray-700">Cinta de enmascarar de diferentes anchos.</span></li>
+                <li class="mb-2"><span class="text-gray-700">Papel o plástico para enmascarar.</span></li>
+                <li class="mb-2"><span class="text-gray-700">Herramientas para la eliminación de óxido (cepillos de alambre, lijadoras con accesorios para óxido).</span></li>
+                <li class="mb-2"><span class="text-gray-700">Equipo de protección personal (guantes, gafas de seguridad, mascarilla antipolvo).</span></li>
             </ul>
-            <p class="text-2xl mt-10">En resumen, la preparación de la superficie es un proceso meticuloso pero esencial. Una buena preparación garantiza una adherencia óptima de la pintura, un acabado liso y uniforme, y una mayor durabilidad del trabajo final. ¡Es la base para un excelente trabajo de chapa y pintura!</p>
         </section>
-        
-        <!-- Espacio para AdSense -->
-        <section class="my-10">
-            <div class="w-full mb-20 h-32 bg-gray-200 flex items-center justify-center">
-                <!-- Aquí iría el código de tu banner de Google AdSense -->
-                <span class="text-gray-500">Espacio reservado para publicidad</span>
-            </div>
+
+        <section class="mb-8 border border-gray-300 rounded-md p-6 bg-white shadow-md">
+            <h2 class="text-3xl font-semibold mb-4 text-gray-700">4. La Continuación del Proceso: Imprimación</h2>
+            <p class="text-2xl leading-relaxed mb-4"><span class="font-semibold text-gray-800">Una vez que la superficie está limpia, lisa y libre de imperfecciones,</span> el siguiente paso crucial es la aplicación de la imprimación (primer). La imprimación tiene varias funciones importantes:</p>
+            <ul class="list-disc list-inside ml-6 text-2xl text-gray-600">
+                <li class="mb-2"><span class="text-gray-700">Mejora la adherencia de la pintura de acabado.</span></li>
+                <li class="mb-2"><span class="text-gray-700">Proporciona una superficie uniforme para la aplicación de la pintura.</span></li>
+                <li class="mb-2"><span class="text-gray-700">Ayuda a sellar la superficie y prevenir la corrosión.</span></li>
+                <li class="mb-2"><span class="text-gray-700">Puede rellenar pequeñas imperfecciones restantes.</span></li>
+            </ul>
+            <p class="text-2xl leading-relaxed mb-4"><span class="font-semibold text-gray-800">La elección de la imprimación adecuada</span> dependerá del tipo de superficie y de la pintura que se va a utilizar. Después de la aplicación de la imprimación, a menudo se requiere un lijado fino adicional para asegurar una superficie perfectamente lisa antes de la aplicación de la capa de base (color) y la capa transparente (barniz).</p>
         </section>
-      </main>
+    </main>
+
+    <aside class="sidebar w-full md:w-1/4 p-6 bg-gray-200 rounded-md shadow-md">
+        <h2 class="text-2xl font-semibold mb-4 text-gray-800">Espacio para Anuncios</h2>
+        <p class="text-lg text-gray-700 mb-4">Este es un espacio reservado para futuros anuncios de Google AdSense u otro contenido promocional relevante para herramientas y materiales de preparación de superficies para chapa y pintura automotriz.</p>
+        <div class="bg-gray-300 h-40 rounded-md mb-4 flex items-center justify-center text-gray-500">
+            Anuncio 1
+        </div>
+        <div class="bg-gray-300 h-40 rounded-md mb-4 flex items-center justify-center text-gray-500">
+            Anuncio 2
+        </div>
+    </aside> 
+      </div>
+    </div>
     
       </div>
     </div>
